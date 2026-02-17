@@ -1,0 +1,851 @@
+2026-02-16 16:59:16,150 INFO o.a.j.u.JMeterUtils: Setting Locale to en_EN
+2026-02-16 16:59:16,192 INFO o.a.j.JMeter: Loading user properties from: D:\Study BCS3\Project VI Software Efficiency and Performance\apache-jmeter-5.6.3\bin\user.properties
+2026-02-16 16:59:16,193 INFO o.a.j.JMeter: Loading system properties from: D:\Study BCS3\Project VI Software Efficiency and Performance\apache-jmeter-5.6.3\bin\system.properties
+2026-02-16 16:59:16,205 INFO o.a.j.JMeter: Copyright (c) 1998-2024 The Apache Software Foundation
+2026-02-16 16:59:16,205 INFO o.a.j.JMeter: Version 5.6.3
+2026-02-16 16:59:16,205 INFO o.a.j.JMeter: java.version=17.0.17
+2026-02-16 16:59:16,205 INFO o.a.j.JMeter: java.vm.name=OpenJDK 64-Bit Server VM
+2026-02-16 16:59:16,205 INFO o.a.j.JMeter: os.name=Windows 11
+2026-02-16 16:59:16,205 INFO o.a.j.JMeter: os.arch=amd64
+2026-02-16 16:59:16,205 INFO o.a.j.JMeter: os.version=10.0
+2026-02-16 16:59:16,205 INFO o.a.j.JMeter: file.encoding=Cp1252
+2026-02-16 16:59:16,205 INFO o.a.j.JMeter: java.awt.headless=true
+2026-02-16 16:59:16,205 INFO o.a.j.JMeter: Max memory     =1073741824
+2026-02-16 16:59:16,205 INFO o.a.j.JMeter: Available Processors =20
+2026-02-16 16:59:16,222 INFO o.a.j.JMeter: Default Locale=English (EN)
+2026-02-16 16:59:16,222 INFO o.a.j.JMeter: JMeter  Locale=English (EN)
+2026-02-16 16:59:16,222 INFO o.a.j.JMeter: JMeterHome=D:\Study BCS3\Project VI Software Efficiency and Performance\apache-jmeter-5.6.3
+2026-02-16 16:59:16,222 INFO o.a.j.JMeter: user.dir  =C:\Users\5991h\Downloads\Project-VI-main (1)\Project-VI-main
+2026-02-16 16:59:16,222 INFO o.a.j.JMeter: PWD       =C:\Users\5991h\Downloads\Project-VI-main (1)\Project-VI-main
+2026-02-16 16:59:16,226 INFO o.a.j.JMeter: IP: 192.168.0.103 Name: Harsh FullName: host.docker.internal
+2026-02-16 16:59:16,245 INFO o.a.j.JMeter: Setting property 'jmeter.reportgenerator.outputdir' to:'C:\Users\5991h\Downloads\Project-VI-main (1)\Project-VI-main\report_output'
+2026-02-16 16:59:16,249 INFO o.a.j.s.FileServer: Default base='C:\Users\5991h\Downloads\Project-VI-main (1)\Project-VI-main'
+2026-02-16 16:59:16,252 INFO o.a.j.s.FileServer: Set new base='C:\Users\5991h\Downloads\Project-VI-main (1)\Project-VI-main'
+2026-02-16 16:59:16,652 INFO o.a.j.s.SaveService: Testplan (JMX) version: 2.2. Testlog (JTL) version: 2.2
+2026-02-16 16:59:16,694 INFO o.a.j.s.SaveService: Using SaveService properties version 5.0
+2026-02-16 16:59:16,701 INFO o.a.j.s.SaveService: Using SaveService properties file encoding UTF-8
+2026-02-16 16:59:16,704 INFO o.a.j.s.SaveService: Loading file: crash.jmx
+2026-02-16 16:59:16,804 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-02-16 16:59:16,806 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-02-16 16:59:16,806 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-02-16 16:59:16,806 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2026-02-16 16:59:16,806 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2026-02-16 16:59:16,806 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2026-02-16 16:59:16,858 INFO o.a.j.JMeter: Creating summariser <summary>
+2026-02-16 16:59:16,861 INFO o.a.j.r.d.ReportGenerator: ReportGenerator will use for Parsing the separator: ','
+2026-02-16 16:59:16,861 INFO o.a.j.r.d.ReportGenerator: Will generate report at end of test from  results file: raw_results.jtl
+2026-02-16 16:59:16,863 INFO o.a.j.r.d.ReportGenerator: Reading report generator properties from: D:\Study BCS3\Project VI Software Efficiency and Performance\apache-jmeter-5.6.3\bin\reportgenerator.properties
+2026-02-16 16:59:16,863 INFO o.a.j.r.d.ReportGenerator: Merging with JMeter properties
+2026-02-16 16:59:16,869 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.temp_dir' not found, using default value 'temp' instead.
+2026-02-16 16:59:16,877 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.apdex_per_transaction' not found, using default value 'null' instead.
+2026-02-16 16:59:16,877 INFO o.a.j.r.c.ReportGeneratorConfiguration: apdex_per_transaction is empty, not APDEX per transaction customization
+2026-02-16 16:59:16,877 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.sample_filter' not found, using default value 'null' instead.
+2026-02-16 16:59:16,877 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.report_title' not found, using default value 'null' instead.
+2026-02-16 16:59:16,877 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.start_date' not found, using default value 'null' instead.
+2026-02-16 16:59:16,877 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.end_date' not found, using default value 'null' instead.
+2026-02-16 16:59:16,877 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.date_format' not found, using default value 'null' instead.
+2026-02-16 16:59:16,877 INFO o.a.j.r.c.ReportGeneratorConfiguration: Will use date range start date: null, end date: null
+2026-02-16 16:59:16,884 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.totalTPS.exclude_controllers' not found, using default value 'false' instead.
+2026-02-16 16:59:16,884 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.activeThreadsOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-02-16 16:59:16,886 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.timeVsThreads.exclude_controllers' not found, using default value 'false' instead.
+2026-02-16 16:59:16,886 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimeDistribution.exclude_controllers' not found, using default value 'false' instead.
+2026-02-16 16:59:16,886 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.transactionsPerSecond.exclude_controllers' not found, using default value 'false' instead.
+2026-02-16 16:59:16,886 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentiles.exclude_controllers' not found, using default value 'false' instead.
+2026-02-16 16:59:16,887 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimePercentilesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-02-16 16:59:16,887 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.responseTimesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-02-16 16:59:16,888 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.connectTimeOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-02-16 16:59:16,888 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.graph.latenciesOverTime.exclude_controllers' not found, using default value 'false' instead.
+2026-02-16 16:59:16,889 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.filters_only_sample_series' not found, using default value 'true' instead.
+2026-02-16 16:59:16,889 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.series_filter' not found, using default value '' instead.
+2026-02-16 16:59:16,889 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.json.show_controllers_only' not found, using default value 'false' instead.
+2026-02-16 16:59:16,889 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.filters_only_sample_series' not found, using default value 'true' instead.
+2026-02-16 16:59:16,889 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.series_filter' not found, using default value '' instead.
+2026-02-16 16:59:16,889 INFO o.a.j.r.c.ReportGeneratorConfiguration: Property 'jmeter.reportgenerator.exporter.html.show_controllers_only' not found, using default value 'false' instead.
+2026-02-16 16:59:16,908 INFO o.a.j.e.StandardJMeterEngine: Running the test!
+2026-02-16 16:59:16,912 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-02-16 16:59:16,912 INFO o.a.j.s.SampleEvent: List of sample_variables: []
+2026-02-16 16:59:16,918 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2026-02-16 16:59:16,918 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2026-02-16 16:59:17,021 INFO o.a.j.r.ClassFinder: Will scan jar D:\Study BCS3\Project VI Software Efficiency and Performance\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-basic-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-02-16 16:59:17,028 INFO o.a.j.r.ClassFinder: Will scan jar D:\Study BCS3\Project VI Software Efficiency and Performance\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-graphs-additional-2.0.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-02-16 16:59:17,031 INFO o.a.j.r.ClassFinder: Will scan jar D:\Study BCS3\Project VI Software Efficiency and Performance\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-cmn-jmeter-0.7.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-02-16 16:59:17,062 INFO o.a.j.r.ClassFinder: Will scan jar D:\Study BCS3\Project VI Software Efficiency and Performance\apache-jmeter-5.6.3\lib\ext\jmeter-plugins-manager-1.11.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-02-16 16:59:17,238 INFO o.a.j.r.ClassFinder: Will scan jar D:\Study BCS3\Project VI Software Efficiency and Performance\apache-jmeter-5.6.3\lib\ext\cmdrunner-2.3.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-02-16 16:59:17,243 INFO o.a.j.r.ClassFinder: Will scan jar D:\Study BCS3\Project VI Software Efficiency and Performance\apache-jmeter-5.6.3\lib\ext\json-lib-2.4-jdk15.jar with filter ExtendsClassFilter [parents=[interface org.apache.jmeter.functions.Function], inner=false, contains=null, notContains=null]. Consider exposing JMeter plugins via META-INF/services, and add JMeter-Skip-Class-Scanning=true manifest attribute so JMeter can skip classfile scanning
+2026-02-16 16:59:17,271 INFO o.a.j.JMeter: Running test (1771279157271)
+2026-02-16 16:59:17,293 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : Stress Test - 120 Users / 1.5 Hours
+2026-02-16 16:59:17,293 INFO o.a.j.e.StandardJMeterEngine: Starting 120 threads for group Stress Test - 120 Users / 1.5 Hours.
+2026-02-16 16:59:17,293 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
+2026-02-16 16:59:17,293 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=120 ramp-up=60 delayedStart=false
+2026-02-16 16:59:17,312 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-1
+2026-02-16 16:59:17,371 INFO o.a.j.p.h.s.HTTPHCAbstractImpl: Local host = Harsh
+2026-02-16 16:59:17,392 INFO o.a.j.p.h.s.HTTPHC4Impl: HTTP request retry count = 0
+2026-02-16 16:59:17,397 INFO o.a.j.t.ThreadGroup: Started thread group number 1
+2026-02-16 16:59:17,397 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
+2026-02-16 16:59:17,400 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2026-02-16 16:59:17,400 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to UTF-8
+2026-02-16 16:59:17,400 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2026-02-16 16:59:17,401 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
+2026-02-16 16:59:17,804 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-2
+2026-02-16 16:59:18,304 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-3
+2026-02-16 16:59:18,799 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-4
+2026-02-16 16:59:19,308 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-5
+2026-02-16 16:59:19,798 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-6
+2026-02-16 16:59:20,304 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-7
+2026-02-16 16:59:20,800 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-8
+2026-02-16 16:59:21,297 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-9
+2026-02-16 16:59:21,797 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-10
+2026-02-16 16:59:22,297 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-11
+2026-02-16 16:59:22,797 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-12
+2026-02-16 16:59:23,299 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-13
+2026-02-16 16:59:23,802 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-14
+2026-02-16 16:59:24,297 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-15
+2026-02-16 16:59:24,796 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-16
+2026-02-16 16:59:25,300 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-17
+2026-02-16 16:59:25,796 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-18
+2026-02-16 16:59:26,300 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-19
+2026-02-16 16:59:26,798 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-20
+2026-02-16 16:59:27,297 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-21
+2026-02-16 16:59:27,797 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-22
+2026-02-16 16:59:28,295 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-23
+2026-02-16 16:59:28,798 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-24
+2026-02-16 16:59:29,295 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-25
+2026-02-16 16:59:29,798 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-26
+2026-02-16 16:59:30,002 INFO o.a.j.r.Summariser: summary +    707 in 00:00:13 =   55.5/s Avg:   210 Min:     1 Max:  2427 Err:     0 (0.00%) Active: 26 Started: 26 Finished: 0
+2026-02-16 16:59:30,299 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-27
+2026-02-16 16:59:30,797 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-28
+2026-02-16 16:59:31,296 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-29
+2026-02-16 16:59:31,798 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-30
+2026-02-16 16:59:32,312 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-31
+2026-02-16 16:59:32,808 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-32
+2026-02-16 16:59:33,311 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-33
+2026-02-16 16:59:33,805 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-34
+2026-02-16 16:59:34,306 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-35
+2026-02-16 16:59:34,810 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-36
+2026-02-16 16:59:35,309 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-37
+2026-02-16 16:59:35,806 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-38
+2026-02-16 16:59:36,306 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-39
+2026-02-16 16:59:36,801 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-40
+2026-02-16 16:59:37,296 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-41
+2026-02-16 16:59:37,796 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-42
+2026-02-16 16:59:38,294 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-43
+2026-02-16 16:59:38,797 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-44
+2026-02-16 16:59:39,297 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-45
+2026-02-16 16:59:39,794 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-46
+2026-02-16 16:59:40,294 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-47
+2026-02-16 16:59:40,797 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-48
+2026-02-16 16:59:41,297 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-49
+2026-02-16 16:59:41,800 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-50
+2026-02-16 16:59:42,307 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-51
+2026-02-16 16:59:42,804 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-52
+2026-02-16 16:59:43,302 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-53
+2026-02-16 16:59:43,798 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-54
+2026-02-16 16:59:44,298 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-55
+2026-02-16 16:59:44,799 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-56
+2026-02-16 16:59:45,298 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-57
+2026-02-16 16:59:45,812 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-58
+2026-02-16 16:59:46,302 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-59
+2026-02-16 16:59:46,799 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-60
+2026-02-16 16:59:47,302 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-61
+2026-02-16 16:59:47,800 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-62
+2026-02-16 16:59:48,298 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-63
+2026-02-16 16:59:48,798 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-64
+2026-02-16 16:59:49,298 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-65
+2026-02-16 16:59:49,799 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-66
+2026-02-16 16:59:50,296 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-67
+2026-02-16 16:59:50,797 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-68
+2026-02-16 16:59:51,303 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-69
+2026-02-16 16:59:51,800 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-70
+2026-02-16 16:59:52,298 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-71
+2026-02-16 16:59:52,798 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-72
+2026-02-16 16:59:53,300 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-73
+2026-02-16 16:59:53,797 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-74
+2026-02-16 16:59:54,302 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-75
+2026-02-16 16:59:54,802 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-76
+2026-02-16 16:59:55,300 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-77
+2026-02-16 16:59:55,805 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-78
+2026-02-16 16:59:56,305 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-79
+2026-02-16 16:59:56,797 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-80
+2026-02-16 16:59:57,301 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-81
+2026-02-16 16:59:57,797 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-82
+2026-02-16 16:59:58,294 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-83
+2026-02-16 16:59:58,795 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-84
+2026-02-16 16:59:59,302 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-85
+2026-02-16 16:59:59,801 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-86
+2026-02-16 17:00:00,024 INFO o.a.j.r.Summariser: summary +   1639 in 00:00:30 =   54.6/s Avg:   972 Min:     1 Max:  6952 Err:     0 (0.00%) Active: 86 Started: 86 Finished: 0
+2026-02-16 17:00:00,026 INFO o.a.j.r.Summariser: summary =   2346 in 00:00:43 =   54.9/s Avg:   742 Min:     1 Max:  6952 Err:     0 (0.00%)
+2026-02-16 17:00:00,299 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-87
+2026-02-16 17:00:00,798 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-88
+2026-02-16 17:00:01,298 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-89
+2026-02-16 17:00:01,797 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-90
+2026-02-16 17:00:02,299 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-91
+2026-02-16 17:00:02,802 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-92
+2026-02-16 17:00:03,299 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-93
+2026-02-16 17:00:03,799 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-94
+2026-02-16 17:00:04,295 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-95
+2026-02-16 17:00:04,796 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-96
+2026-02-16 17:00:05,295 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-97
+2026-02-16 17:00:05,799 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-98
+2026-02-16 17:00:06,295 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-99
+2026-02-16 17:00:06,795 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-100
+2026-02-16 17:00:07,294 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-101
+2026-02-16 17:00:07,795 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-102
+2026-02-16 17:00:08,294 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-103
+2026-02-16 17:00:08,795 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-104
+2026-02-16 17:00:09,300 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-105
+2026-02-16 17:00:09,799 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-106
+2026-02-16 17:00:10,295 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-107
+2026-02-16 17:00:10,796 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-108
+2026-02-16 17:00:11,295 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-109
+2026-02-16 17:00:11,794 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-110
+2026-02-16 17:00:12,297 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-111
+2026-02-16 17:00:12,796 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-112
+2026-02-16 17:00:13,295 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-113
+2026-02-16 17:00:13,793 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-114
+2026-02-16 17:00:14,293 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-115
+2026-02-16 17:00:14,794 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-116
+2026-02-16 17:00:15,293 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-117
+2026-02-16 17:00:15,794 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-118
+2026-02-16 17:00:16,299 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-119
+2026-02-16 17:00:16,794 INFO o.a.j.t.JMeterThread: Thread started: Stress Test - 120 Users / 1.5 Hours 1-120
+2026-02-16 17:00:30,327 INFO o.a.j.r.Summariser: summary +   1588 in 00:00:30 =   52.4/s Avg:  1987 Min:     3 Max:  7156 Err:     1 (0.06%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:00:30,329 INFO o.a.j.r.Summariser: summary =   3934 in 00:01:13 =   53.8/s Avg:  1245 Min:     1 Max:  7156 Err:     1 (0.03%)
+2026-02-16 17:01:00,116 INFO o.a.j.r.Summariser: summary +   1703 in 00:00:30 =   57.2/s Avg:  2145 Min:     5 Max:  8367 Err:     7 (0.41%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:01:00,116 INFO o.a.j.r.Summariser: summary =   5637 in 00:01:43 =   54.8/s Avg:  1517 Min:     1 Max:  8367 Err:     8 (0.14%)
+2026-02-16 17:01:30,003 INFO o.a.j.r.Summariser: summary +   1556 in 00:00:30 =   52.1/s Avg:  2264 Min:     2 Max:  8349 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:01:30,004 INFO o.a.j.r.Summariser: summary =   7193 in 00:02:13 =   54.2/s Avg:  1678 Min:     1 Max:  8367 Err:     8 (0.11%)
+2026-02-16 17:02:00,064 INFO o.a.j.r.Summariser: summary +   1689 in 00:00:30 =   56.2/s Avg:  2196 Min:     2 Max:  9032 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:02:00,065 INFO o.a.j.r.Summariser: summary =   8882 in 00:02:43 =   54.6/s Avg:  1777 Min:     1 Max:  9032 Err:     8 (0.09%)
+2026-02-16 17:02:30,061 INFO o.a.j.r.Summariser: summary +   1537 in 00:00:30 =   51.2/s Avg:  2307 Min:     4 Max:  9919 Err:     4 (0.26%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:02:30,063 INFO o.a.j.r.Summariser: summary =  10419 in 00:03:13 =   54.0/s Avg:  1855 Min:     1 Max:  9919 Err:    12 (0.12%)
+2026-02-16 17:03:00,144 INFO o.a.j.r.Summariser: summary +   1533 in 00:00:30 =   51.0/s Avg:  2382 Min:    11 Max:  8767 Err:     1 (0.07%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:03:00,144 INFO o.a.j.r.Summariser: summary =  11952 in 00:03:43 =   53.6/s Avg:  1923 Min:     1 Max:  9919 Err:    13 (0.11%)
+2026-02-16 17:03:30,242 INFO o.a.j.r.Summariser: summary +   1489 in 00:00:30 =   49.5/s Avg:  2333 Min:     7 Max: 10118 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:03:30,244 INFO o.a.j.r.Summariser: summary =  13441 in 00:04:13 =   53.1/s Avg:  1968 Min:     1 Max: 10118 Err:    13 (0.10%)
+2026-02-16 17:04:00,347 INFO o.a.j.r.Summariser: summary +   2065 in 00:00:30 =   68.6/s Avg:  1824 Min:     1 Max: 10292 Err:     1 (0.05%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:04:00,348 INFO o.a.j.r.Summariser: summary =  15506 in 00:04:43 =   54.8/s Avg:  1949 Min:     1 Max: 10292 Err:    14 (0.09%)
+2026-02-16 17:04:30,034 INFO o.a.j.r.Summariser: summary +   2202 in 00:00:30 =   74.2/s Avg:  1649 Min:     3 Max:  6434 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:04:30,034 INFO o.a.j.r.Summariser: summary =  17708 in 00:05:13 =   56.6/s Avg:  1912 Min:     1 Max: 10292 Err:    14 (0.08%)
+2026-02-16 17:05:00,395 INFO o.a.j.r.Summariser: summary +   2143 in 00:00:30 =   70.6/s Avg:  1658 Min:     2 Max:  6129 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:05:00,397 INFO o.a.j.r.Summariser: summary =  19851 in 00:05:43 =   57.9/s Avg:  1884 Min:     1 Max: 10292 Err:    14 (0.07%)
+2026-02-16 17:05:30,096 INFO o.a.j.r.Summariser: summary +   2163 in 00:00:30 =   72.8/s Avg:  1649 Min:     2 Max:  6699 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:05:30,097 INFO o.a.j.r.Summariser: summary =  22014 in 00:06:13 =   59.0/s Avg:  1861 Min:     1 Max: 10292 Err:    14 (0.06%)
+2026-02-16 17:06:00,547 INFO o.a.j.r.Summariser: summary +   2111 in 00:00:30 =   69.3/s Avg:  1720 Min:     2 Max:  6593 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:06:00,549 INFO o.a.j.r.Summariser: summary =  24125 in 00:06:43 =   59.8/s Avg:  1849 Min:     1 Max: 10292 Err:    14 (0.06%)
+2026-02-16 17:06:30,003 INFO o.a.j.r.Summariser: summary +   2033 in 00:00:29 =   69.0/s Avg:  1775 Min:     2 Max:  6860 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:06:30,003 INFO o.a.j.r.Summariser: summary =  26158 in 00:07:13 =   60.4/s Avg:  1843 Min:     1 Max: 10292 Err:    14 (0.05%)
+2026-02-16 17:07:00,067 INFO o.a.j.r.Summariser: summary +   1983 in 00:00:30 =   66.0/s Avg:  1779 Min:     1 Max:  5635 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:07:00,068 INFO o.a.j.r.Summariser: summary =  28141 in 00:07:43 =   60.8/s Avg:  1839 Min:     1 Max: 10292 Err:    14 (0.05%)
+2026-02-16 17:07:30,080 INFO o.a.j.r.Summariser: summary +   1911 in 00:00:30 =   63.7/s Avg:  1893 Min:     2 Max:  7238 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:07:30,081 INFO o.a.j.r.Summariser: summary =  30052 in 00:08:13 =   61.0/s Avg:  1842 Min:     1 Max: 10292 Err:    14 (0.05%)
+2026-02-16 17:08:00,020 INFO o.a.j.r.Summariser: summary +   1910 in 00:00:30 =   63.8/s Avg:  1880 Min:     2 Max:  7378 Err:     2 (0.10%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:08:00,020 INFO o.a.j.r.Summariser: summary =  31962 in 00:08:43 =   61.1/s Avg:  1844 Min:     1 Max: 10292 Err:    16 (0.05%)
+2026-02-16 17:08:30,370 INFO o.a.j.r.Summariser: summary +   1871 in 00:00:30 =   61.6/s Avg:  1909 Min:     2 Max:  7662 Err:     3 (0.16%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:08:30,372 INFO o.a.j.r.Summariser: summary =  33833 in 00:09:13 =   61.2/s Avg:  1848 Min:     1 Max: 10292 Err:    19 (0.06%)
+2026-02-16 17:09:00,028 INFO o.a.j.r.Summariser: summary +   1809 in 00:00:30 =   61.0/s Avg:  1983 Min:     2 Max:  6856 Err:     1 (0.06%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:09:00,029 INFO o.a.j.r.Summariser: summary =  35642 in 00:09:43 =   61.2/s Avg:  1855 Min:     1 Max: 10292 Err:    20 (0.06%)
+2026-02-16 17:09:30,096 INFO o.a.j.r.Summariser: summary +   1818 in 00:00:30 =   60.5/s Avg:  2004 Min:     2 Max:  7784 Err:     2 (0.11%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:09:30,096 INFO o.a.j.r.Summariser: summary =  37460 in 00:10:13 =   61.1/s Avg:  1862 Min:     1 Max: 10292 Err:    22 (0.06%)
+2026-02-16 17:10:00,003 INFO o.a.j.r.Summariser: summary +   1859 in 00:00:30 =   62.2/s Avg:  1930 Min:     1 Max:  7873 Err:     1 (0.05%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:10:00,004 INFO o.a.j.r.Summariser: summary =  39319 in 00:10:43 =   61.2/s Avg:  1865 Min:     1 Max: 10292 Err:    23 (0.06%)
+2026-02-16 17:10:30,058 INFO o.a.j.r.Summariser: summary +   1831 in 00:00:30 =   60.9/s Avg:  1988 Min:     1 Max:  8111 Err:     1 (0.05%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:10:30,059 INFO o.a.j.r.Summariser: summary =  41150 in 00:11:13 =   61.2/s Avg:  1871 Min:     1 Max: 10292 Err:    24 (0.06%)
+2026-02-16 17:11:00,894 INFO o.a.j.r.Summariser: summary +   1698 in 00:00:31 =   55.1/s Avg:  2079 Min:     1 Max:  8557 Err:     1 (0.06%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:11:00,895 INFO o.a.j.r.Summariser: summary =  42848 in 00:11:44 =   60.9/s Avg:  1879 Min:     1 Max: 10292 Err:    25 (0.06%)
+2026-02-16 17:11:30,016 INFO o.a.j.r.Summariser: summary +   1763 in 00:00:29 =   60.5/s Avg:  2070 Min:     2 Max:  8640 Err:     3 (0.17%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:11:30,016 INFO o.a.j.r.Summariser: summary =  44611 in 00:12:13 =   60.9/s Avg:  1886 Min:     1 Max: 10292 Err:    28 (0.06%)
+2026-02-16 17:12:00,063 INFO o.a.j.r.Summariser: summary +   1739 in 00:00:30 =   57.9/s Avg:  2067 Min:     1 Max:  8386 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:12:00,064 INFO o.a.j.r.Summariser: summary =  46350 in 00:12:43 =   60.8/s Avg:  1893 Min:     1 Max: 10292 Err:    28 (0.06%)
+2026-02-16 17:12:30,007 INFO o.a.j.r.Summariser: summary +   1729 in 00:00:30 =   57.7/s Avg:  2078 Min:     1 Max:  7098 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:12:30,007 INFO o.a.j.r.Summariser: summary =  48079 in 00:13:13 =   60.6/s Avg:  1900 Min:     1 Max: 10292 Err:    28 (0.06%)
+2026-02-16 17:13:00,027 INFO o.a.j.r.Summariser: summary +   1698 in 00:00:30 =   56.6/s Avg:  2108 Min:     1 Max:  6975 Err:     1 (0.06%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:13:00,028 INFO o.a.j.r.Summariser: summary =  49777 in 00:13:43 =   60.5/s Avg:  1907 Min:     1 Max: 10292 Err:    29 (0.06%)
+2026-02-16 17:13:30,006 INFO o.a.j.r.Summariser: summary +   1699 in 00:00:30 =   56.7/s Avg:  2128 Min:     2 Max:  7312 Err:     1 (0.06%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:13:30,007 INFO o.a.j.r.Summariser: summary =  51476 in 00:14:13 =   60.4/s Avg:  1914 Min:     1 Max: 10292 Err:    30 (0.06%)
+2026-02-16 17:14:00,041 INFO o.a.j.r.Summariser: summary +   1597 in 00:00:30 =   53.2/s Avg:  2228 Min:     1 Max:  7560 Err:     3 (0.19%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:14:00,042 INFO o.a.j.r.Summariser: summary =  53073 in 00:14:43 =   60.1/s Avg:  1924 Min:     1 Max: 10292 Err:    33 (0.06%)
+2026-02-16 17:14:30,013 INFO o.a.j.r.Summariser: summary +   1602 in 00:00:30 =   53.4/s Avg:  2266 Min:     1 Max:  7820 Err:     4 (0.25%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:14:30,014 INFO o.a.j.r.Summariser: summary =  54675 in 00:15:13 =   59.9/s Avg:  1934 Min:     1 Max: 10292 Err:    37 (0.07%)
+2026-02-16 17:15:00,055 INFO o.a.j.r.Summariser: summary +   1572 in 00:00:30 =   52.3/s Avg:  2270 Min:     1 Max:  7586 Err:     3 (0.19%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:15:00,056 INFO o.a.j.r.Summariser: summary =  56247 in 00:15:43 =   59.7/s Avg:  1943 Min:     1 Max: 10292 Err:    40 (0.07%)
+2026-02-16 17:15:30,018 INFO o.a.j.r.Summariser: summary +   1556 in 00:00:30 =   51.9/s Avg:  2331 Min:     2 Max:  7905 Err:     4 (0.26%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:15:30,018 INFO o.a.j.r.Summariser: summary =  57803 in 00:16:13 =   59.4/s Avg:  1954 Min:     1 Max: 10292 Err:    44 (0.08%)
+2026-02-16 17:16:00,028 INFO o.a.j.r.Summariser: summary +   1550 in 00:00:30 =   51.6/s Avg:  2284 Min:     1 Max:  7614 Err:     2 (0.13%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:16:00,029 INFO o.a.j.r.Summariser: summary =  59353 in 00:16:43 =   59.2/s Avg:  1962 Min:     1 Max: 10292 Err:    46 (0.08%)
+2026-02-16 17:16:30,025 INFO o.a.j.r.Summariser: summary +   1579 in 00:00:30 =   52.6/s Avg:  2325 Min:     1 Max:  7941 Err:     4 (0.25%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:16:30,027 INFO o.a.j.r.Summariser: summary =  60932 in 00:17:13 =   59.0/s Avg:  1972 Min:     1 Max: 10292 Err:    50 (0.08%)
+2026-02-16 17:17:00,053 INFO o.a.j.r.Summariser: summary +   1527 in 00:00:30 =   50.9/s Avg:  2314 Min:     1 Max:  8607 Err:     2 (0.13%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:17:00,054 INFO o.a.j.r.Summariser: summary =  62459 in 00:17:43 =   58.8/s Avg:  1980 Min:     1 Max: 10292 Err:    52 (0.08%)
+2026-02-16 17:17:30,068 INFO o.a.j.r.Summariser: summary +   1468 in 00:00:30 =   48.9/s Avg:  2443 Min:     2 Max:  9783 Err:     5 (0.34%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:17:30,068 INFO o.a.j.r.Summariser: summary =  63927 in 00:18:13 =   58.5/s Avg:  1991 Min:     1 Max: 10292 Err:    57 (0.09%)
+2026-02-16 17:18:00,002 INFO o.a.j.r.Summariser: summary +   1458 in 00:00:30 =   48.7/s Avg:  2510 Min:     1 Max:  8098 Err:     4 (0.27%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:18:00,002 INFO o.a.j.r.Summariser: summary =  65385 in 00:18:43 =   58.2/s Avg:  2002 Min:     1 Max: 10292 Err:    61 (0.09%)
+2026-02-16 17:18:30,001 INFO o.a.j.r.Summariser: summary +   1401 in 00:00:30 =   46.7/s Avg:  2543 Min:     1 Max:  8648 Err:     2 (0.14%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:18:30,002 INFO o.a.j.r.Summariser: summary =  66786 in 00:19:13 =   57.9/s Avg:  2014 Min:     1 Max: 10292 Err:    63 (0.09%)
+2026-02-16 17:19:00,072 INFO o.a.j.r.Summariser: summary +   1439 in 00:00:30 =   47.9/s Avg:  2542 Min:     2 Max: 10042 Err:     2 (0.14%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:19:00,072 INFO o.a.j.r.Summariser: summary =  68225 in 00:19:43 =   57.7/s Avg:  2025 Min:     1 Max: 10292 Err:    65 (0.10%)
+2026-02-16 17:19:30,002 INFO o.a.j.r.Summariser: summary +   1342 in 00:00:30 =   44.8/s Avg:  2643 Min:     1 Max:  8842 Err:     2 (0.15%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:19:30,002 INFO o.a.j.r.Summariser: summary =  69567 in 00:20:13 =   57.4/s Avg:  2037 Min:     1 Max: 10292 Err:    67 (0.10%)
+2026-02-16 17:20:00,012 INFO o.a.j.r.Summariser: summary +   1424 in 00:00:30 =   47.5/s Avg:  2556 Min:     1 Max:  8228 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:20:00,013 INFO o.a.j.r.Summariser: summary =  70991 in 00:20:43 =   57.1/s Avg:  2047 Min:     1 Max: 10292 Err:    67 (0.09%)
+2026-02-16 17:20:30,142 INFO o.a.j.r.Summariser: summary +   1383 in 00:00:30 =   45.9/s Avg:  2589 Min:     1 Max:  8392 Err:     4 (0.29%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:20:30,143 INFO o.a.j.r.Summariser: summary =  72374 in 00:21:13 =   56.9/s Avg:  2057 Min:     1 Max: 10292 Err:    71 (0.10%)
+2026-02-16 17:21:00,150 INFO o.a.j.r.Summariser: summary +   1326 in 00:00:30 =   44.2/s Avg:  2671 Min:     1 Max:  9440 Err:     4 (0.30%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:21:00,150 INFO o.a.j.r.Summariser: summary =  73700 in 00:21:43 =   56.6/s Avg:  2068 Min:     1 Max: 10292 Err:    75 (0.10%)
+2026-02-16 17:21:30,001 INFO o.a.j.r.Summariser: summary +   1300 in 00:00:30 =   43.5/s Avg:  2753 Min:     1 Max:  8834 Err:     5 (0.38%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:21:30,002 INFO o.a.j.r.Summariser: summary =  75000 in 00:22:13 =   56.3/s Avg:  2080 Min:     1 Max: 10292 Err:    80 (0.11%)
+2026-02-16 17:22:00,171 INFO o.a.j.r.Summariser: summary +   1325 in 00:00:30 =   43.9/s Avg:  2769 Min:     1 Max:  8964 Err:     4 (0.30%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:22:00,172 INFO o.a.j.r.Summariser: summary =  76325 in 00:22:43 =   56.0/s Avg:  2092 Min:     1 Max: 10292 Err:    84 (0.11%)
+2026-02-16 17:22:30,182 INFO o.a.j.r.Summariser: summary +   1279 in 00:00:30 =   42.6/s Avg:  2791 Min:     2 Max:  9103 Err:     0 (0.00%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:22:30,183 INFO o.a.j.r.Summariser: summary =  77604 in 00:23:13 =   55.7/s Avg:  2104 Min:     1 Max: 10292 Err:    84 (0.11%)
+2026-02-16 17:23:00,267 INFO o.a.j.r.Summariser: summary +   1265 in 00:00:30 =   42.0/s Avg:  2857 Min:     1 Max:  9239 Err:     3 (0.24%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:23:00,268 INFO o.a.j.r.Summariser: summary =  78869 in 00:23:43 =   55.4/s Avg:  2116 Min:     1 Max: 10292 Err:    87 (0.11%)
+2026-02-16 17:23:30,113 INFO o.a.j.r.Summariser: summary +   1259 in 00:00:30 =   42.2/s Avg:  2823 Min:     1 Max:  9563 Err:     2 (0.16%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:23:30,115 INFO o.a.j.r.Summariser: summary =  80128 in 00:24:13 =   55.2/s Avg:  2127 Min:     1 Max: 10292 Err:    89 (0.11%)
+2026-02-16 17:24:00,072 INFO o.a.j.r.Summariser: summary +   1251 in 00:00:30 =   41.8/s Avg:  2914 Min:     1 Max:  9589 Err:     1 (0.08%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:24:00,073 INFO o.a.j.r.Summariser: summary =  81379 in 00:24:43 =   54.9/s Avg:  2139 Min:     1 Max: 10292 Err:    90 (0.11%)
+2026-02-16 17:24:30,013 INFO o.a.j.r.Summariser: summary +   1204 in 00:00:30 =   40.2/s Avg:  2930 Min:     1 Max:  9473 Err:     1 (0.08%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:24:30,015 INFO o.a.j.r.Summariser: summary =  82583 in 00:25:13 =   54.6/s Avg:  2151 Min:     1 Max: 10292 Err:    91 (0.11%)
+2026-02-16 17:25:00,010 INFO o.a.j.r.Summariser: summary +   1190 in 00:00:30 =   39.7/s Avg:  3053 Min:     1 Max:  9805 Err:     5 (0.42%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:25:00,011 INFO o.a.j.r.Summariser: summary =  83773 in 00:25:43 =   54.3/s Avg:  2163 Min:     1 Max: 10292 Err:    96 (0.11%)
+2026-02-16 17:25:30,007 INFO o.a.j.r.Summariser: summary +   1181 in 00:00:30 =   39.4/s Avg:  3047 Min:     1 Max:  9854 Err:     4 (0.34%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:25:30,008 INFO o.a.j.r.Summariser: summary =  84954 in 00:26:13 =   54.0/s Avg:  2176 Min:     1 Max: 10292 Err:   100 (0.12%)
+2026-02-16 17:26:00,037 INFO o.a.j.r.Summariser: summary +   1179 in 00:00:30 =   39.3/s Avg:  3018 Min:     1 Max:  7743 Err:     6 (0.51%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:26:00,039 INFO o.a.j.r.Summariser: summary =  86133 in 00:26:43 =   53.7/s Avg:  2187 Min:     1 Max: 10292 Err:   106 (0.12%)
+2026-02-16 17:26:30,156 INFO o.a.j.r.Summariser: summary +   1154 in 00:00:30 =   38.3/s Avg:  3161 Min:     1 Max: 10096 Err:     5 (0.43%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:26:30,157 INFO o.a.j.r.Summariser: summary =  87287 in 00:27:13 =   53.5/s Avg:  2200 Min:     1 Max: 10292 Err:   111 (0.13%)
+2026-02-16 17:27:00,056 INFO o.a.j.r.Summariser: summary +   1142 in 00:00:30 =   38.2/s Avg:  3058 Min:     1 Max:  9991 Err:     5 (0.44%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:27:00,056 INFO o.a.j.r.Summariser: summary =  88429 in 00:27:43 =   53.2/s Avg:  2211 Min:     1 Max: 10292 Err:   116 (0.13%)
+2026-02-16 17:27:30,045 INFO o.a.j.r.Summariser: summary +   1153 in 00:00:30 =   38.4/s Avg:  3122 Min:     2 Max: 12281 Err:     9 (0.78%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:27:30,046 INFO o.a.j.r.Summariser: summary =  89582 in 00:28:13 =   52.9/s Avg:  2223 Min:     1 Max: 12281 Err:   125 (0.14%)
+2026-02-16 17:28:00,013 INFO o.a.j.r.Summariser: summary +   1158 in 00:00:30 =   38.6/s Avg:  3188 Min:     1 Max: 10154 Err:    15 (1.30%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:28:00,013 INFO o.a.j.r.Summariser: summary =  90740 in 00:28:43 =   52.7/s Avg:  2235 Min:     1 Max: 12281 Err:   140 (0.15%)
+2026-02-16 17:28:30,003 INFO o.a.j.r.Summariser: summary +   1169 in 00:00:30 =   39.0/s Avg:  3048 Min:     1 Max: 10724 Err:    15 (1.28%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:28:30,003 INFO o.a.j.r.Summariser: summary =  91909 in 00:29:13 =   52.4/s Avg:  2246 Min:     1 Max: 12281 Err:   155 (0.17%)
+2026-02-16 17:29:00,111 INFO o.a.j.r.Summariser: summary +   1128 in 00:00:30 =   37.5/s Avg:  3181 Min:     2 Max: 12690 Err:    19 (1.68%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:29:00,112 INFO o.a.j.r.Summariser: summary =  93037 in 00:29:43 =   52.2/s Avg:  2257 Min:     1 Max: 12690 Err:   174 (0.19%)
+2026-02-16 17:29:30,125 INFO o.a.j.r.Summariser: summary +   1105 in 00:00:30 =   36.8/s Avg:  3257 Min:     1 Max: 10914 Err:    25 (2.26%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:29:30,125 INFO o.a.j.r.Summariser: summary =  94142 in 00:30:13 =   51.9/s Avg:  2269 Min:     1 Max: 12690 Err:   199 (0.21%)
+2026-02-16 17:30:00,008 INFO o.a.j.r.Summariser: summary +   1137 in 00:00:30 =   38.0/s Avg:  3167 Min:     1 Max: 10625 Err:    13 (1.14%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:30:00,009 INFO o.a.j.r.Summariser: summary =  95279 in 00:30:43 =   51.7/s Avg:  2279 Min:     1 Max: 12690 Err:   212 (0.22%)
+2026-02-16 17:30:30,193 INFO o.a.j.r.Summariser: summary +   1106 in 00:00:30 =   36.6/s Avg:  3291 Min:     1 Max: 11119 Err:    25 (2.26%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:30:30,193 INFO o.a.j.r.Summariser: summary =  96385 in 00:31:13 =   51.5/s Avg:  2291 Min:     1 Max: 12690 Err:   237 (0.25%)
+2026-02-16 17:31:00,021 INFO o.a.j.r.Summariser: summary +   1117 in 00:00:30 =   37.4/s Avg:  3216 Min:     1 Max: 10861 Err:    30 (2.69%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:31:00,021 INFO o.a.j.r.Summariser: summary =  97502 in 00:31:43 =   51.2/s Avg:  2302 Min:     1 Max: 12690 Err:   267 (0.27%)
+2026-02-16 17:31:30,006 INFO o.a.j.r.Summariser: summary +   1065 in 00:00:30 =   35.5/s Avg:  3314 Min:     1 Max: 10796 Err:    27 (2.54%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:31:30,007 INFO o.a.j.r.Summariser: summary =  98567 in 00:32:13 =   51.0/s Avg:  2312 Min:     1 Max: 12690 Err:   294 (0.30%)
+2026-02-16 17:32:00,082 INFO o.a.j.r.Summariser: summary +   1072 in 00:00:30 =   35.6/s Avg:  3355 Min:     2 Max: 12026 Err:    10 (0.93%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:32:00,082 INFO o.a.j.r.Summariser: summary =  99639 in 00:32:43 =   50.8/s Avg:  2324 Min:     1 Max: 12690 Err:   304 (0.31%)
+2026-02-16 17:32:30,130 INFO o.a.j.r.Summariser: summary +   1088 in 00:00:30 =   36.2/s Avg:  3332 Min:     1 Max: 10707 Err:    15 (1.38%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:32:30,130 INFO o.a.j.r.Summariser: summary = 100727 in 00:33:13 =   50.5/s Avg:  2335 Min:     1 Max: 12690 Err:   319 (0.32%)
+2026-02-16 17:33:00,117 INFO o.a.j.r.Summariser: summary +   1075 in 00:00:30 =   35.8/s Avg:  3329 Min:     1 Max: 11138 Err:    22 (2.05%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:33:00,117 INFO o.a.j.r.Summariser: summary = 101802 in 00:33:43 =   50.3/s Avg:  2345 Min:     1 Max: 12690 Err:   341 (0.33%)
+2026-02-16 17:33:30,044 INFO o.a.j.r.Summariser: summary +   1068 in 00:00:30 =   35.7/s Avg:  3431 Min:     1 Max: 13735 Err:    16 (1.50%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:33:30,044 INFO o.a.j.r.Summariser: summary = 102870 in 00:34:13 =   50.1/s Avg:  2356 Min:     1 Max: 13735 Err:   357 (0.35%)
+2026-02-16 17:34:00,277 INFO o.a.j.r.Summariser: summary +   1043 in 00:00:30 =   34.5/s Avg:  3457 Min:     1 Max: 10955 Err:    16 (1.53%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:34:00,279 INFO o.a.j.r.Summariser: summary = 103913 in 00:34:43 =   49.9/s Avg:  2367 Min:     1 Max: 13735 Err:   373 (0.36%)
+2026-02-16 17:34:30,010 INFO o.a.j.r.Summariser: summary +   1019 in 00:00:30 =   34.3/s Avg:  3502 Min:     1 Max: 10964 Err:     7 (0.69%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:34:30,011 INFO o.a.j.r.Summariser: summary = 104932 in 00:35:13 =   49.7/s Avg:  2378 Min:     1 Max: 13735 Err:   380 (0.36%)
+2026-02-16 17:35:00,175 INFO o.a.j.r.Summariser: summary +   1074 in 00:00:30 =   35.6/s Avg:  3405 Min:     1 Max: 11429 Err:    28 (2.61%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:35:00,175 INFO o.a.j.r.Summariser: summary = 106006 in 00:35:43 =   49.5/s Avg:  2389 Min:     1 Max: 13735 Err:   408 (0.38%)
+2026-02-16 17:35:30,300 INFO o.a.j.r.Summariser: summary +   1015 in 00:00:30 =   33.7/s Avg:  3512 Min:     1 Max: 11336 Err:    25 (2.46%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:35:30,301 INFO o.a.j.r.Summariser: summary = 107021 in 00:36:13 =   49.2/s Avg:  2399 Min:     1 Max: 13735 Err:   433 (0.40%)
+2026-02-16 17:36:00,017 INFO o.a.j.r.Summariser: summary +   1015 in 00:00:30 =   34.2/s Avg:  3505 Min:     1 Max: 11463 Err:    24 (2.36%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:36:00,017 INFO o.a.j.r.Summariser: summary = 108036 in 00:36:43 =   49.0/s Avg:  2410 Min:     1 Max: 13735 Err:   457 (0.42%)
+2026-02-16 17:36:30,004 INFO o.a.j.r.Summariser: summary +   1027 in 00:00:30 =   34.2/s Avg:  3563 Min:     1 Max: 11514 Err:    30 (2.92%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:36:30,004 INFO o.a.j.r.Summariser: summary = 109063 in 00:37:13 =   48.8/s Avg:  2421 Min:     1 Max: 13735 Err:   487 (0.45%)
+2026-02-16 17:37:00,143 INFO o.a.j.r.Summariser: summary +    981 in 00:00:30 =   32.5/s Avg:  3572 Min:     1 Max: 11679 Err:    19 (1.94%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:37:00,143 INFO o.a.j.r.Summariser: summary = 110044 in 00:37:43 =   48.6/s Avg:  2431 Min:     1 Max: 13735 Err:   506 (0.46%)
+2026-02-16 17:37:30,062 INFO o.a.j.r.Summariser: summary +   1008 in 00:00:30 =   33.7/s Avg:  3645 Min:     1 Max: 11911 Err:    14 (1.39%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:37:30,062 INFO o.a.j.r.Summariser: summary = 111052 in 00:38:13 =   48.4/s Avg:  2442 Min:     1 Max: 13735 Err:   520 (0.47%)
+2026-02-16 17:38:00,075 INFO o.a.j.r.Summariser: summary +    995 in 00:00:30 =   33.2/s Avg:  3580 Min:     1 Max: 11966 Err:    16 (1.61%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:38:00,075 INFO o.a.j.r.Summariser: summary = 112047 in 00:38:43 =   48.2/s Avg:  2452 Min:     1 Max: 13735 Err:   536 (0.48%)
+2026-02-16 17:38:30,057 INFO o.a.j.r.Summariser: summary +    942 in 00:00:30 =   31.4/s Avg:  3780 Min:     1 Max: 14759 Err:    27 (2.87%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:38:30,058 INFO o.a.j.r.Summariser: summary = 112989 in 00:39:13 =   48.0/s Avg:  2463 Min:     1 Max: 14759 Err:   563 (0.50%)
+2026-02-16 17:39:00,003 INFO o.a.j.r.Summariser: summary +   1015 in 00:00:30 =   33.9/s Avg:  3598 Min:     1 Max: 14838 Err:    21 (2.07%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:39:00,004 INFO o.a.j.r.Summariser: summary = 114004 in 00:39:43 =   47.8/s Avg:  2473 Min:     1 Max: 14838 Err:   584 (0.51%)
+2026-02-16 17:39:30,008 INFO o.a.j.r.Summariser: summary +    948 in 00:00:30 =   31.6/s Avg:  3692 Min:     1 Max: 11860 Err:    14 (1.48%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:39:30,008 INFO o.a.j.r.Summariser: summary = 114952 in 00:40:13 =   47.6/s Avg:  2483 Min:     1 Max: 14838 Err:   598 (0.52%)
+2026-02-16 17:40:00,030 INFO o.a.j.r.Summariser: summary +   1015 in 00:00:30 =   33.8/s Avg:  3660 Min:     1 Max: 15255 Err:    30 (2.96%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:40:00,030 INFO o.a.j.r.Summariser: summary = 115967 in 00:40:43 =   47.5/s Avg:  2494 Min:     1 Max: 15255 Err:   628 (0.54%)
+2026-02-16 17:40:30,147 INFO o.a.j.r.Summariser: summary +    951 in 00:00:30 =   31.6/s Avg:  3773 Min:     2 Max: 12258 Err:    18 (1.89%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:40:30,147 INFO o.a.j.r.Summariser: summary = 116918 in 00:41:13 =   47.3/s Avg:  2504 Min:     1 Max: 15255 Err:   646 (0.55%)
+2026-02-16 17:41:00,295 INFO o.a.j.r.Summariser: summary +    965 in 00:00:30 =   32.0/s Avg:  3736 Min:     1 Max: 14912 Err:    28 (2.90%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:41:00,297 INFO o.a.j.r.Summariser: summary = 117883 in 00:41:43 =   47.1/s Avg:  2514 Min:     1 Max: 15255 Err:   674 (0.57%)
+2026-02-16 17:41:30,167 INFO o.a.j.r.Summariser: summary +    948 in 00:00:30 =   31.7/s Avg:  3772 Min:     1 Max: 11736 Err:    22 (2.32%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:41:30,168 INFO o.a.j.r.Summariser: summary = 118831 in 00:42:13 =   46.9/s Avg:  2524 Min:     1 Max: 15255 Err:   696 (0.59%)
+2026-02-16 17:42:00,040 INFO o.a.j.r.Summariser: summary +    981 in 00:00:30 =   32.8/s Avg:  3688 Min:     1 Max: 14290 Err:    22 (2.24%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:42:00,043 INFO o.a.j.r.Summariser: summary = 119812 in 00:42:43 =   46.8/s Avg:  2534 Min:     1 Max: 15255 Err:   718 (0.60%)
+2026-02-16 17:42:30,075 INFO o.a.j.r.Summariser: summary +    925 in 00:00:30 =   30.8/s Avg:  3852 Min:     1 Max: 12295 Err:    20 (2.16%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:42:30,075 INFO o.a.j.r.Summariser: summary = 120737 in 00:43:13 =   46.6/s Avg:  2544 Min:     1 Max: 15255 Err:   738 (0.61%)
+2026-02-16 17:43:00,042 INFO o.a.j.r.Summariser: summary +    973 in 00:00:30 =   32.5/s Avg:  3720 Min:     1 Max: 12349 Err:    22 (2.26%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:43:00,043 INFO o.a.j.r.Summariser: summary = 121710 in 00:43:43 =   46.4/s Avg:  2553 Min:     1 Max: 15255 Err:   760 (0.62%)
+2026-02-16 17:43:30,042 INFO o.a.j.r.Summariser: summary +    936 in 00:00:30 =   31.2/s Avg:  3880 Min:     1 Max: 12172 Err:    21 (2.24%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:43:30,042 INFO o.a.j.r.Summariser: summary = 122646 in 00:44:13 =   46.2/s Avg:  2563 Min:     1 Max: 15255 Err:   781 (0.64%)
+2026-02-16 17:44:00,006 INFO o.a.j.r.Summariser: summary +    921 in 00:00:30 =   30.7/s Avg:  3927 Min:     1 Max: 12636 Err:    20 (2.17%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:44:00,007 INFO o.a.j.r.Summariser: summary = 123567 in 00:44:43 =   46.1/s Avg:  2573 Min:     1 Max: 15255 Err:   801 (0.65%)
+2026-02-16 17:44:30,165 INFO o.a.j.r.Summariser: summary +    952 in 00:00:30 =   31.6/s Avg:  3738 Min:     1 Max: 13496 Err:    17 (1.79%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:44:30,165 INFO o.a.j.r.Summariser: summary = 124519 in 00:45:13 =   45.9/s Avg:  2582 Min:     1 Max: 15255 Err:   818 (0.66%)
+2026-02-16 17:45:00,144 INFO o.a.j.r.Summariser: summary +    845 in 00:00:30 =   28.2/s Avg:  4153 Min:     1 Max: 13529 Err:    22 (2.60%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:45:00,145 INFO o.a.j.r.Summariser: summary = 125364 in 00:45:43 =   45.7/s Avg:  2593 Min:     1 Max: 15255 Err:   840 (0.67%)
+2026-02-16 17:45:30,021 INFO o.a.j.r.Summariser: summary +    891 in 00:00:30 =   29.8/s Avg:  4079 Min:     2 Max: 13305 Err:    21 (2.36%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:45:30,021 INFO o.a.j.r.Summariser: summary = 126255 in 00:46:13 =   45.5/s Avg:  2603 Min:     1 Max: 15255 Err:   861 (0.68%)
+2026-02-16 17:46:00,008 INFO o.a.j.r.Summariser: summary +    895 in 00:00:30 =   29.8/s Avg:  3948 Min:     1 Max: 13105 Err:    17 (1.90%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:46:00,009 INFO o.a.j.r.Summariser: summary = 127150 in 00:46:43 =   45.4/s Avg:  2613 Min:     1 Max: 15255 Err:   878 (0.69%)
+2026-02-16 17:46:30,078 INFO o.a.j.r.Summariser: summary +    871 in 00:00:30 =   29.0/s Avg:  4301 Min:     1 Max: 13743 Err:    18 (2.07%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:46:30,078 INFO o.a.j.r.Summariser: summary = 128021 in 00:47:13 =   45.2/s Avg:  2624 Min:     1 Max: 15255 Err:   896 (0.70%)
+2026-02-16 17:47:00,098 INFO o.a.j.r.Summariser: summary +    854 in 00:00:30 =   28.4/s Avg:  4110 Min:     1 Max: 13799 Err:    22 (2.58%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:47:00,100 INFO o.a.j.r.Summariser: summary = 128875 in 00:47:43 =   45.0/s Avg:  2634 Min:     1 Max: 15255 Err:   918 (0.71%)
+2026-02-16 17:47:30,021 INFO o.a.j.r.Summariser: summary +    861 in 00:00:30 =   28.8/s Avg:  4187 Min:     1 Max: 13279 Err:     7 (0.81%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:47:30,021 INFO o.a.j.r.Summariser: summary = 129736 in 00:48:13 =   44.8/s Avg:  2645 Min:     1 Max: 15255 Err:   925 (0.71%)
+2026-02-16 17:48:00,091 INFO o.a.j.r.Summariser: summary +    872 in 00:00:30 =   29.0/s Avg:  4145 Min:     1 Max: 13930 Err:    29 (3.33%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:48:00,092 INFO o.a.j.r.Summariser: summary = 130608 in 00:48:43 =   44.7/s Avg:  2655 Min:     1 Max: 15255 Err:   954 (0.73%)
+2026-02-16 17:48:30,099 INFO o.a.j.r.Summariser: summary +    841 in 00:00:30 =   28.0/s Avg:  4132 Min:     1 Max: 13442 Err:    20 (2.38%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:48:30,099 INFO o.a.j.r.Summariser: summary = 131449 in 00:49:13 =   44.5/s Avg:  2664 Min:     1 Max: 15255 Err:   974 (0.74%)
+2026-02-16 17:49:00,067 INFO o.a.j.r.Summariser: summary +    892 in 00:00:30 =   29.8/s Avg:  4192 Min:     1 Max: 14019 Err:    31 (3.48%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:49:00,067 INFO o.a.j.r.Summariser: summary = 132341 in 00:49:43 =   44.4/s Avg:  2674 Min:     1 Max: 15255 Err:  1005 (0.76%)
+2026-02-16 17:49:30,010 INFO o.a.j.r.Summariser: summary +    826 in 00:00:30 =   27.6/s Avg:  4405 Min:     1 Max: 11310 Err:    10 (1.21%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:49:30,015 INFO o.a.j.r.Summariser: summary = 133167 in 00:50:13 =   44.2/s Avg:  2685 Min:     1 Max: 15255 Err:  1015 (0.76%)
+2026-02-16 17:50:00,010 INFO o.a.j.r.Summariser: summary +    826 in 00:00:30 =   27.5/s Avg:  4099 Min:     1 Max: 13260 Err:    24 (2.91%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:50:00,011 INFO o.a.j.r.Summariser: summary = 133993 in 00:50:43 =   44.0/s Avg:  2694 Min:     1 Max: 15255 Err:  1039 (0.78%)
+2026-02-16 17:50:30,045 INFO o.a.j.r.Summariser: summary +    891 in 00:00:30 =   29.7/s Avg:  4222 Min:     1 Max: 17209 Err:    26 (2.92%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:50:30,045 INFO o.a.j.r.Summariser: summary = 134884 in 00:51:13 =   43.9/s Avg:  2704 Min:     1 Max: 17209 Err:  1065 (0.79%)
+2026-02-16 17:51:00,003 INFO o.a.j.r.Summariser: summary +    815 in 00:00:30 =   27.2/s Avg:  4380 Min:     2 Max: 14048 Err:    15 (1.84%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:51:00,004 INFO o.a.j.r.Summariser: summary = 135699 in 00:51:43 =   43.7/s Avg:  2714 Min:     1 Max: 17209 Err:  1080 (0.80%)
+2026-02-16 17:51:30,032 INFO o.a.j.r.Summariser: summary +    851 in 00:00:30 =   28.3/s Avg:  4266 Min:     1 Max: 13932 Err:    23 (2.70%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:51:30,032 INFO o.a.j.r.Summariser: summary = 136550 in 00:52:13 =   43.6/s Avg:  2724 Min:     1 Max: 17209 Err:  1103 (0.81%)
+2026-02-16 17:52:00,014 INFO o.a.j.r.Summariser: summary +    843 in 00:00:30 =   28.1/s Avg:  4221 Min:     1 Max: 14102 Err:    19 (2.25%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:52:00,015 INFO o.a.j.r.Summariser: summary = 137393 in 00:52:43 =   43.4/s Avg:  2733 Min:     1 Max: 17209 Err:  1122 (0.82%)
+2026-02-16 17:52:30,092 INFO o.a.j.r.Summariser: summary +    844 in 00:00:30 =   28.1/s Avg:  4321 Min:     1 Max: 16031 Err:    22 (2.61%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:52:30,093 INFO o.a.j.r.Summariser: summary = 138237 in 00:53:13 =   43.3/s Avg:  2742 Min:     1 Max: 17209 Err:  1144 (0.83%)
+2026-02-16 17:53:00,069 INFO o.a.j.r.Summariser: summary +    818 in 00:00:30 =   27.3/s Avg:  4255 Min:     1 Max: 13805 Err:    16 (1.96%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:53:00,070 INFO o.a.j.r.Summariser: summary = 139055 in 00:53:43 =   43.1/s Avg:  2751 Min:     1 Max: 17209 Err:  1160 (0.83%)
+2026-02-16 17:53:30,002 INFO o.a.j.r.Summariser: summary +    821 in 00:00:30 =   27.4/s Avg:  4386 Min:     1 Max: 14550 Err:    17 (2.07%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:53:30,003 INFO o.a.j.r.Summariser: summary = 139876 in 00:54:13 =   43.0/s Avg:  2761 Min:     1 Max: 17209 Err:  1177 (0.84%)
+2026-02-16 17:54:00,026 INFO o.a.j.r.Summariser: summary +    833 in 00:00:30 =   27.7/s Avg:  4383 Min:     1 Max: 13490 Err:    13 (1.56%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:54:00,026 INFO o.a.j.r.Summariser: summary = 140709 in 00:54:43 =   42.9/s Avg:  2771 Min:     1 Max: 17209 Err:  1190 (0.85%)
+2026-02-16 17:54:30,062 INFO o.a.j.r.Summariser: summary +    829 in 00:00:30 =   27.6/s Avg:  4353 Min:     1 Max: 14691 Err:    21 (2.53%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:54:30,063 INFO o.a.j.r.Summariser: summary = 141538 in 00:55:13 =   42.7/s Avg:  2780 Min:     1 Max: 17209 Err:  1211 (0.86%)
+2026-02-16 17:55:00,012 INFO o.a.j.r.Summariser: summary +    803 in 00:00:30 =   26.8/s Avg:  4495 Min:     2 Max: 14582 Err:    14 (1.74%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:55:00,013 INFO o.a.j.r.Summariser: summary = 142341 in 00:55:43 =   42.6/s Avg:  2790 Min:     1 Max: 17209 Err:  1225 (0.86%)
+2026-02-16 17:55:30,197 INFO o.a.j.r.Summariser: summary +    786 in 00:00:30 =   26.0/s Avg:  4523 Min:     2 Max: 14158 Err:    13 (1.65%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:55:30,198 INFO o.a.j.r.Summariser: summary = 143127 in 00:56:13 =   42.4/s Avg:  2799 Min:     1 Max: 17209 Err:  1238 (0.86%)
+2026-02-16 17:56:00,034 INFO o.a.j.r.Summariser: summary +    842 in 00:00:30 =   28.2/s Avg:  4337 Min:     1 Max: 17879 Err:    23 (2.73%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:56:00,034 INFO o.a.j.r.Summariser: summary = 143969 in 00:56:43 =   42.3/s Avg:  2808 Min:     1 Max: 17879 Err:  1261 (0.88%)
+2026-02-16 17:56:30,210 INFO o.a.j.r.Summariser: summary +    802 in 00:00:30 =   26.6/s Avg:  4474 Min:     2 Max: 14586 Err:    20 (2.49%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:56:30,210 INFO o.a.j.r.Summariser: summary = 144771 in 00:57:13 =   42.2/s Avg:  2817 Min:     1 Max: 17879 Err:  1281 (0.88%)
+2026-02-16 17:57:00,009 INFO o.a.j.r.Summariser: summary +    813 in 00:00:30 =   27.3/s Avg:  4425 Min:     1 Max: 14864 Err:    26 (3.20%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:57:00,009 INFO o.a.j.r.Summariser: summary = 145584 in 00:57:43 =   42.0/s Avg:  2826 Min:     1 Max: 17879 Err:  1307 (0.90%)
+2026-02-16 17:57:30,144 INFO o.a.j.r.Summariser: summary +    795 in 00:00:30 =   26.4/s Avg:  4498 Min:     1 Max: 13852 Err:    15 (1.89%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:57:30,144 INFO o.a.j.r.Summariser: summary = 146379 in 00:58:13 =   41.9/s Avg:  2835 Min:     1 Max: 17879 Err:  1322 (0.90%)
+2026-02-16 17:58:00,027 INFO o.a.j.r.Summariser: summary +    812 in 00:00:30 =   27.2/s Avg:  4502 Min:     1 Max: 14625 Err:    12 (1.48%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:58:00,028 INFO o.a.j.r.Summariser: summary = 147191 in 00:58:43 =   41.8/s Avg:  2845 Min:     1 Max: 17879 Err:  1334 (0.91%)
+2026-02-16 17:58:30,014 INFO o.a.j.r.Summariser: summary +    794 in 00:00:30 =   26.5/s Avg:  4525 Min:     1 Max: 14979 Err:    17 (2.14%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:58:30,014 INFO o.a.j.r.Summariser: summary = 147985 in 00:59:13 =   41.7/s Avg:  2854 Min:     1 Max: 17879 Err:  1351 (0.91%)
+2026-02-16 17:59:00,063 INFO o.a.j.r.Summariser: summary +    753 in 00:00:30 =   25.1/s Avg:  4512 Min:     1 Max: 15072 Err:    15 (1.99%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:59:00,063 INFO o.a.j.r.Summariser: summary = 148738 in 00:59:43 =   41.5/s Avg:  2862 Min:     1 Max: 17879 Err:  1366 (0.92%)
+2026-02-16 17:59:30,019 INFO o.a.j.r.Summariser: summary +    799 in 00:00:30 =   26.7/s Avg:  4716 Min:     1 Max: 18058 Err:    18 (2.25%) Active: 120 Started: 120 Finished: 0
+2026-02-16 17:59:30,019 INFO o.a.j.r.Summariser: summary = 149537 in 01:00:13 =   41.4/s Avg:  2872 Min:     1 Max: 18058 Err:  1384 (0.93%)
+2026-02-16 18:00:00,147 INFO o.a.j.r.Summariser: summary +    801 in 00:00:30 =   26.6/s Avg:  4454 Min:     1 Max: 13465 Err:     9 (1.12%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:00:00,147 INFO o.a.j.r.Summariser: summary = 150338 in 01:00:43 =   41.3/s Avg:  2880 Min:     1 Max: 18058 Err:  1393 (0.93%)
+2026-02-16 18:00:30,006 INFO o.a.j.r.Summariser: summary +    807 in 00:00:30 =   27.0/s Avg:  4549 Min:     1 Max: 18714 Err:    23 (2.85%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:00:30,006 INFO o.a.j.r.Summariser: summary = 151145 in 01:01:13 =   41.2/s Avg:  2889 Min:     1 Max: 18714 Err:  1416 (0.94%)
+2026-02-16 18:01:00,010 INFO o.a.j.r.Summariser: summary +    769 in 00:00:30 =   25.6/s Avg:  4635 Min:     1 Max: 14821 Err:    14 (1.82%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:01:00,011 INFO o.a.j.r.Summariser: summary = 151914 in 01:01:43 =   41.0/s Avg:  2898 Min:     1 Max: 18714 Err:  1430 (0.94%)
+2026-02-16 18:01:30,146 INFO o.a.j.r.Summariser: summary +    769 in 00:00:30 =   25.5/s Avg:  4523 Min:     1 Max: 14924 Err:    32 (4.16%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:01:30,148 INFO o.a.j.r.Summariser: summary = 152683 in 01:02:13 =   40.9/s Avg:  2906 Min:     1 Max: 18714 Err:  1462 (0.96%)
+2026-02-16 18:02:00,316 INFO o.a.j.r.Summariser: summary +    804 in 00:00:30 =   26.6/s Avg:  4582 Min:     1 Max: 14708 Err:    23 (2.86%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:02:00,316 INFO o.a.j.r.Summariser: summary = 153487 in 01:02:43 =   40.8/s Avg:  2915 Min:     1 Max: 18714 Err:  1485 (0.97%)
+2026-02-16 18:02:30,023 INFO o.a.j.r.Summariser: summary +    769 in 00:00:30 =   25.9/s Avg:  4753 Min:     1 Max: 17570 Err:    16 (2.08%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:02:30,024 INFO o.a.j.r.Summariser: summary = 154256 in 01:03:13 =   40.7/s Avg:  2924 Min:     1 Max: 18714 Err:  1501 (0.97%)
+2026-02-16 18:03:00,205 INFO o.a.j.r.Summariser: summary +    772 in 00:00:30 =   25.6/s Avg:  4588 Min:     1 Max: 14777 Err:     6 (0.78%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:03:00,205 INFO o.a.j.r.Summariser: summary = 155028 in 01:03:43 =   40.6/s Avg:  2932 Min:     1 Max: 18714 Err:  1507 (0.97%)
+2026-02-16 18:03:30,003 INFO o.a.j.r.Summariser: summary +    757 in 00:00:30 =   25.4/s Avg:  4672 Min:     2 Max: 11840 Err:    24 (3.17%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:03:30,004 INFO o.a.j.r.Summariser: summary = 155785 in 01:04:13 =   40.4/s Avg:  2941 Min:     1 Max: 18714 Err:  1531 (0.98%)
+2026-02-16 18:04:00,046 INFO o.a.j.r.Summariser: summary +    785 in 00:00:30 =   26.1/s Avg:  4701 Min:     1 Max: 15385 Err:    17 (2.17%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:04:00,046 INFO o.a.j.r.Summariser: summary = 156570 in 01:04:43 =   40.3/s Avg:  2950 Min:     1 Max: 18714 Err:  1548 (0.99%)
+2026-02-16 18:04:30,214 INFO o.a.j.r.Summariser: summary +    793 in 00:00:30 =   26.3/s Avg:  4590 Min:     1 Max: 19115 Err:    20 (2.52%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:04:30,214 INFO o.a.j.r.Summariser: summary = 157363 in 01:05:13 =   40.2/s Avg:  2958 Min:     1 Max: 19115 Err:  1568 (1.00%)
+2026-02-16 18:05:00,013 INFO o.a.j.r.Summariser: summary +    721 in 00:00:30 =   24.2/s Avg:  4858 Min:     1 Max: 17968 Err:    12 (1.66%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:05:00,014 INFO o.a.j.r.Summariser: summary = 158084 in 01:05:43 =   40.1/s Avg:  2967 Min:     1 Max: 19115 Err:  1580 (1.00%)
+2026-02-16 18:05:30,158 INFO o.a.j.r.Summariser: summary +    796 in 00:00:30 =   26.4/s Avg:  4647 Min:     1 Max: 16588 Err:    22 (2.76%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:05:30,160 INFO o.a.j.r.Summariser: summary = 158880 in 01:06:13 =   40.0/s Avg:  2975 Min:     1 Max: 19115 Err:  1602 (1.01%)
+2026-02-16 18:06:00,016 INFO o.a.j.r.Summariser: summary +    735 in 00:00:30 =   24.6/s Avg:  4776 Min:     2 Max: 15449 Err:    15 (2.04%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:06:00,017 INFO o.a.j.r.Summariser: summary = 159615 in 01:06:43 =   39.9/s Avg:  2983 Min:     1 Max: 19115 Err:  1617 (1.01%)
+2026-02-16 18:06:30,111 INFO o.a.j.r.Summariser: summary +    755 in 00:00:30 =   25.1/s Avg:  4799 Min:     1 Max: 14520 Err:     6 (0.79%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:06:30,112 INFO o.a.j.r.Summariser: summary = 160370 in 01:07:13 =   39.8/s Avg:  2992 Min:     1 Max: 19115 Err:  1623 (1.01%)
+2026-02-16 18:07:00,375 INFO o.a.j.r.Summariser: summary +    779 in 00:00:30 =   25.7/s Avg:  4782 Min:     1 Max: 15567 Err:    23 (2.95%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:07:00,375 INFO o.a.j.r.Summariser: summary = 161149 in 01:07:43 =   39.7/s Avg:  3001 Min:     1 Max: 19115 Err:  1646 (1.02%)
+2026-02-16 18:07:30,080 INFO o.a.j.r.Summariser: summary +    739 in 00:00:30 =   24.9/s Avg:  4775 Min:     2 Max: 15405 Err:    19 (2.57%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:07:30,080 INFO o.a.j.r.Summariser: summary = 161888 in 01:08:13 =   39.6/s Avg:  3009 Min:     1 Max: 19115 Err:  1665 (1.03%)
+2026-02-16 18:08:00,189 INFO o.a.j.r.Summariser: summary +    727 in 00:00:30 =   24.1/s Avg:  4779 Min:     1 Max: 15546 Err:    18 (2.48%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:08:00,190 INFO o.a.j.r.Summariser: summary = 162615 in 01:08:43 =   39.4/s Avg:  3017 Min:     1 Max: 19115 Err:  1683 (1.03%)
+2026-02-16 18:08:30,123 INFO o.a.j.r.Summariser: summary +    775 in 00:00:30 =   25.9/s Avg:  4817 Min:     1 Max: 15533 Err:    14 (1.81%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:08:30,124 INFO o.a.j.r.Summariser: summary = 163390 in 01:09:13 =   39.3/s Avg:  3025 Min:     1 Max: 19115 Err:  1697 (1.04%)
+2026-02-16 18:09:00,048 INFO o.a.j.r.Summariser: summary +    732 in 00:00:30 =   24.5/s Avg:  4839 Min:     1 Max: 15982 Err:    14 (1.91%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:09:00,048 INFO o.a.j.r.Summariser: summary = 164122 in 01:09:43 =   39.2/s Avg:  3033 Min:     1 Max: 19115 Err:  1711 (1.04%)
+2026-02-16 18:09:30,027 INFO o.a.j.r.Summariser: summary +    737 in 00:00:30 =   24.6/s Avg:  4844 Min:     1 Max: 16113 Err:    17 (2.31%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:09:30,028 INFO o.a.j.r.Summariser: summary = 164859 in 01:10:13 =   39.1/s Avg:  3041 Min:     1 Max: 19115 Err:  1728 (1.05%)
+2026-02-16 18:10:00,019 INFO o.a.j.r.Summariser: summary +    719 in 00:00:30 =   24.0/s Avg:  4885 Min:     2 Max: 17749 Err:    17 (2.36%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:10:00,020 INFO o.a.j.r.Summariser: summary = 165578 in 01:10:43 =   39.0/s Avg:  3049 Min:     1 Max: 19115 Err:  1745 (1.05%)
+2026-02-16 18:10:30,086 INFO o.a.j.r.Summariser: summary +    730 in 00:00:30 =   24.3/s Avg:  5047 Min:     2 Max: 15439 Err:    29 (3.97%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:10:30,086 INFO o.a.j.r.Summariser: summary = 166308 in 01:11:13 =   38.9/s Avg:  3058 Min:     1 Max: 19115 Err:  1774 (1.07%)
+2026-02-16 18:11:00,154 INFO o.a.j.r.Summariser: summary +    738 in 00:00:30 =   24.5/s Avg:  4864 Min:     1 Max: 15750 Err:    20 (2.71%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:11:00,154 INFO o.a.j.r.Summariser: summary = 167046 in 01:11:43 =   38.8/s Avg:  3066 Min:     1 Max: 19115 Err:  1794 (1.07%)
+2026-02-16 18:11:30,000 INFO o.a.j.r.Summariser: summary +    728 in 00:00:30 =   24.4/s Avg:  5051 Min:     1 Max: 19951 Err:    10 (1.37%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:11:30,000 INFO o.a.j.r.Summariser: summary = 167774 in 01:12:13 =   38.7/s Avg:  3075 Min:     1 Max: 19951 Err:  1804 (1.08%)
+2026-02-16 18:12:00,229 INFO o.a.j.r.Summariser: summary +    712 in 00:00:30 =   23.6/s Avg:  4940 Min:     1 Max: 20129 Err:    17 (2.39%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:12:00,229 INFO o.a.j.r.Summariser: summary = 168486 in 01:12:43 =   38.6/s Avg:  3083 Min:     1 Max: 20129 Err:  1821 (1.08%)
+2026-02-16 18:12:30,051 INFO o.a.j.r.Summariser: summary +    733 in 00:00:30 =   24.6/s Avg:  4910 Min:     1 Max: 16552 Err:    11 (1.50%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:12:30,051 INFO o.a.j.r.Summariser: summary = 169219 in 01:13:13 =   38.5/s Avg:  3090 Min:     1 Max: 20129 Err:  1832 (1.08%)
+2026-02-16 18:13:00,183 INFO o.a.j.r.Summariser: summary +    725 in 00:00:30 =   24.1/s Avg:  5046 Min:     1 Max: 19881 Err:    24 (3.31%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:13:00,183 INFO o.a.j.r.Summariser: summary = 169944 in 01:13:43 =   38.4/s Avg:  3099 Min:     1 Max: 20129 Err:  1856 (1.09%)
+2026-02-16 18:13:30,214 INFO o.a.j.r.Summariser: summary +    740 in 00:00:30 =   24.6/s Avg:  4933 Min:     1 Max: 16365 Err:    14 (1.89%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:13:30,215 INFO o.a.j.r.Summariser: summary = 170684 in 01:14:13 =   38.3/s Avg:  3107 Min:     1 Max: 20129 Err:  1870 (1.10%)
+2026-02-16 18:14:00,017 INFO o.a.j.r.Summariser: summary +    702 in 00:00:30 =   23.6/s Avg:  5079 Min:     1 Max: 16172 Err:    18 (2.56%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:14:00,017 INFO o.a.j.r.Summariser: summary = 171386 in 01:14:43 =   38.2/s Avg:  3115 Min:     1 Max: 20129 Err:  1888 (1.10%)
+2026-02-16 18:14:30,015 INFO o.a.j.r.Summariser: summary +    712 in 00:00:30 =   23.7/s Avg:  5118 Min:     1 Max: 16133 Err:     7 (0.98%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:14:30,015 INFO o.a.j.r.Summariser: summary = 172098 in 01:15:13 =   38.1/s Avg:  3123 Min:     1 Max: 20129 Err:  1895 (1.10%)
+2026-02-16 18:15:00,719 INFO o.a.j.r.Summariser: summary +    689 in 00:00:31 =   22.4/s Avg:  5115 Min:     1 Max: 16323 Err:     5 (0.73%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:15:00,719 INFO o.a.j.r.Summariser: summary = 172787 in 01:15:43 =   38.0/s Avg:  3131 Min:     1 Max: 20129 Err:  1900 (1.10%)
+2026-02-16 18:15:30,301 INFO o.a.j.r.Summariser: summary +    727 in 00:00:30 =   24.6/s Avg:  5050 Min:     1 Max: 16379 Err:    20 (2.75%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:15:30,301 INFO o.a.j.r.Summariser: summary = 173514 in 01:16:13 =   37.9/s Avg:  3139 Min:     1 Max: 20129 Err:  1920 (1.11%)
+2026-02-16 18:16:00,141 INFO o.a.j.r.Summariser: summary +    704 in 00:00:30 =   23.6/s Avg:  4989 Min:     1 Max: 13101 Err:    14 (1.99%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:16:00,141 INFO o.a.j.r.Summariser: summary = 174218 in 01:16:43 =   37.8/s Avg:  3147 Min:     1 Max: 20129 Err:  1934 (1.11%)
+2026-02-16 18:16:30,340 INFO o.a.j.r.Summariser: summary +    707 in 00:00:30 =   23.4/s Avg:  5122 Min:     1 Max: 12522 Err:    14 (1.98%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:16:30,341 INFO o.a.j.r.Summariser: summary = 174925 in 01:17:13 =   37.8/s Avg:  3155 Min:     1 Max: 20129 Err:  1948 (1.11%)
+2026-02-16 18:17:00,125 INFO o.a.j.r.Summariser: summary +    677 in 00:00:30 =   22.7/s Avg:  5281 Min:     1 Max: 21113 Err:     3 (0.44%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:17:00,125 INFO o.a.j.r.Summariser: summary = 175602 in 01:17:43 =   37.7/s Avg:  3163 Min:     1 Max: 21113 Err:  1951 (1.11%)
+2026-02-16 18:17:30,008 INFO o.a.j.r.Summariser: summary +    701 in 00:00:30 =   23.5/s Avg:  4974 Min:     1 Max: 16728 Err:    18 (2.57%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:17:30,008 INFO o.a.j.r.Summariser: summary = 176303 in 01:18:13 =   37.6/s Avg:  3170 Min:     1 Max: 21113 Err:  1969 (1.12%)
+2026-02-16 18:18:00,098 INFO o.a.j.r.Summariser: summary +    744 in 00:00:30 =   24.7/s Avg:  5146 Min:     2 Max: 16768 Err:    18 (2.42%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:18:00,098 INFO o.a.j.r.Summariser: summary = 177047 in 01:18:43 =   37.5/s Avg:  3178 Min:     1 Max: 21113 Err:  1987 (1.12%)
+2026-02-16 18:18:30,088 INFO o.a.j.r.Summariser: summary +    685 in 00:00:30 =   22.8/s Avg:  5011 Min:     1 Max: 20872 Err:     7 (1.02%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:18:30,089 INFO o.a.j.r.Summariser: summary = 177732 in 01:19:13 =   37.4/s Avg:  3185 Min:     1 Max: 21113 Err:  1994 (1.12%)
+2026-02-16 18:19:00,002 INFO o.a.j.r.Summariser: summary +    698 in 00:00:30 =   23.3/s Avg:  5089 Min:     1 Max: 16614 Err:    20 (2.87%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:19:00,002 INFO o.a.j.r.Summariser: summary = 178430 in 01:19:43 =   37.3/s Avg:  3193 Min:     1 Max: 21113 Err:  2014 (1.13%)
+2026-02-16 18:19:30,096 INFO o.a.j.r.Summariser: summary +    719 in 00:00:30 =   23.9/s Avg:  5138 Min:     1 Max: 16905 Err:    18 (2.50%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:19:30,096 INFO o.a.j.r.Summariser: summary = 179149 in 01:20:13 =   37.2/s Avg:  3201 Min:     1 Max: 21113 Err:  2032 (1.13%)
+2026-02-16 18:20:00,121 INFO o.a.j.r.Summariser: summary +    693 in 00:00:30 =   23.1/s Avg:  5064 Min:     1 Max: 17446 Err:    16 (2.31%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:20:00,122 INFO o.a.j.r.Summariser: summary = 179842 in 01:20:43 =   37.1/s Avg:  3208 Min:     1 Max: 21113 Err:  2048 (1.14%)
+2026-02-16 18:20:30,029 INFO o.a.j.r.Summariser: summary +    693 in 00:00:30 =   23.2/s Avg:  5206 Min:     2 Max: 24844 Err:    21 (3.03%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:20:30,029 INFO o.a.j.r.Summariser: summary = 180535 in 01:21:13 =   37.0/s Avg:  3215 Min:     1 Max: 24844 Err:  2069 (1.15%)
+2026-02-16 18:21:00,029 INFO o.a.j.r.Summariser: summary +    691 in 00:00:30 =   23.0/s Avg:  5297 Min:     2 Max: 17149 Err:    17 (2.46%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:21:00,030 INFO o.a.j.r.Summariser: summary = 181226 in 01:21:43 =   37.0/s Avg:  3223 Min:     1 Max: 24844 Err:  2086 (1.15%)
+2026-02-16 18:21:30,292 INFO o.a.j.r.Summariser: summary +    667 in 00:00:30 =   22.0/s Avg:  5387 Min:     1 Max: 17195 Err:     8 (1.20%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:21:30,292 INFO o.a.j.r.Summariser: summary = 181893 in 01:22:13 =   36.9/s Avg:  3231 Min:     1 Max: 24844 Err:  2094 (1.15%)
+2026-02-16 18:22:00,139 INFO o.a.j.r.Summariser: summary +    694 in 00:00:30 =   23.3/s Avg:  5156 Min:     1 Max: 17390 Err:    16 (2.31%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:22:00,139 INFO o.a.j.r.Summariser: summary = 182587 in 01:22:43 =   36.8/s Avg:  3239 Min:     1 Max: 24844 Err:  2110 (1.16%)
+2026-02-16 18:22:30,132 INFO o.a.j.r.Summariser: summary +    687 in 00:00:30 =   22.9/s Avg:  5226 Min:     2 Max: 17054 Err:    24 (3.49%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:22:30,133 INFO o.a.j.r.Summariser: summary = 183274 in 01:23:13 =   36.7/s Avg:  3246 Min:     1 Max: 24844 Err:  2134 (1.16%)
+2026-02-16 18:23:00,074 INFO o.a.j.r.Summariser: summary +    696 in 00:00:30 =   23.2/s Avg:  5193 Min:     1 Max: 20965 Err:    18 (2.59%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:23:00,075 INFO o.a.j.r.Summariser: summary = 183970 in 01:23:43 =   36.6/s Avg:  3253 Min:     1 Max: 24844 Err:  2152 (1.17%)
+2026-02-16 18:23:30,023 INFO o.a.j.r.Summariser: summary +    662 in 00:00:30 =   22.1/s Avg:  5448 Min:     1 Max: 17157 Err:    22 (3.32%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:23:30,023 INFO o.a.j.r.Summariser: summary = 184632 in 01:24:13 =   36.5/s Avg:  3261 Min:     1 Max: 24844 Err:  2174 (1.18%)
+2026-02-16 18:24:00,084 INFO o.a.j.r.Summariser: summary +    706 in 00:00:30 =   23.5/s Avg:  5183 Min:     1 Max: 17079 Err:    18 (2.55%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:24:00,084 INFO o.a.j.r.Summariser: summary = 185338 in 01:24:43 =   36.5/s Avg:  3269 Min:     1 Max: 24844 Err:  2192 (1.18%)
+2026-02-16 18:24:30,026 INFO o.a.j.r.Summariser: summary +    676 in 00:00:30 =   22.6/s Avg:  5185 Min:     1 Max: 17196 Err:    20 (2.96%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:24:30,026 INFO o.a.j.r.Summariser: summary = 186014 in 01:25:13 =   36.4/s Avg:  3276 Min:     1 Max: 24844 Err:  2212 (1.19%)
+2026-02-16 18:25:00,133 INFO o.a.j.r.Summariser: summary +    676 in 00:00:30 =   22.5/s Avg:  5403 Min:     1 Max: 21350 Err:    19 (2.81%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:25:00,133 INFO o.a.j.r.Summariser: summary = 186690 in 01:25:43 =   36.3/s Avg:  3283 Min:     1 Max: 24844 Err:  2231 (1.20%)
+2026-02-16 18:25:30,029 INFO o.a.j.r.Summariser: summary +    703 in 00:00:30 =   23.5/s Avg:  5094 Min:     1 Max: 17600 Err:    17 (2.42%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:25:30,029 INFO o.a.j.r.Summariser: summary = 187393 in 01:26:13 =   36.2/s Avg:  3290 Min:     1 Max: 24844 Err:  2248 (1.20%)
+2026-02-16 18:26:00,010 INFO o.a.j.r.Summariser: summary +    653 in 00:00:30 =   21.8/s Avg:  5559 Min:     1 Max: 18087 Err:    18 (2.76%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:26:00,012 INFO o.a.j.r.Summariser: summary = 188046 in 01:26:43 =   36.1/s Avg:  3298 Min:     1 Max: 24844 Err:  2266 (1.21%)
+2026-02-16 18:26:30,204 INFO o.a.j.r.Summariser: summary +    653 in 00:00:30 =   21.6/s Avg:  5353 Min:     1 Max: 17540 Err:    12 (1.84%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:26:30,204 INFO o.a.j.r.Summariser: summary = 188699 in 01:27:13 =   36.1/s Avg:  3305 Min:     1 Max: 24844 Err:  2278 (1.21%)
+2026-02-16 18:27:00,258 INFO o.a.j.r.Summariser: summary +    701 in 00:00:30 =   23.3/s Avg:  5412 Min:     1 Max: 17472 Err:     9 (1.28%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:27:00,258 INFO o.a.j.r.Summariser: summary = 189400 in 01:27:43 =   36.0/s Avg:  3313 Min:     1 Max: 24844 Err:  2287 (1.21%)
+2026-02-16 18:27:30,013 INFO o.a.j.r.Summariser: summary +    645 in 00:00:30 =   21.7/s Avg:  5227 Min:     2 Max: 17629 Err:    13 (2.02%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:27:30,014 INFO o.a.j.r.Summariser: summary = 190045 in 01:28:13 =   35.9/s Avg:  3319 Min:     1 Max: 24844 Err:  2300 (1.21%)
+2026-02-16 18:28:00,446 INFO o.a.j.r.Summariser: summary +    673 in 00:00:30 =   22.1/s Avg:  5461 Min:     1 Max: 21264 Err:    20 (2.97%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:28:00,446 INFO o.a.j.r.Summariser: summary = 190718 in 01:28:43 =   35.8/s Avg:  3327 Min:     1 Max: 24844 Err:  2320 (1.22%)
+2026-02-16 18:28:30,349 INFO o.a.j.r.Summariser: summary +    684 in 00:00:30 =   22.9/s Avg:  5275 Min:     1 Max: 21960 Err:    21 (3.07%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:28:30,350 INFO o.a.j.r.Summariser: summary = 191402 in 01:29:13 =   35.8/s Avg:  3334 Min:     1 Max: 24844 Err:  2341 (1.22%)
+2026-02-16 18:29:00,137 INFO o.a.j.r.Summariser: summary +    655 in 00:00:30 =   22.0/s Avg:  5452 Min:     2 Max: 17417 Err:    10 (1.53%) Active: 120 Started: 120 Finished: 0
+2026-02-16 18:29:00,137 INFO o.a.j.r.Summariser: summary = 192057 in 01:29:43 =   35.7/s Avg:  3341 Min:     1 Max: 24844 Err:  2351 (1.22%)
+2026-02-16 18:29:17,356 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-48
+2026-02-16 18:29:17,356 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-17
+2026-02-16 18:29:17,357 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-17
+2026-02-16 18:29:17,357 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-48
+2026-02-16 18:29:17,366 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-9
+2026-02-16 18:29:17,366 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-9
+2026-02-16 18:29:17,368 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-36
+2026-02-16 18:29:17,368 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-36
+2026-02-16 18:29:17,413 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-98
+2026-02-16 18:29:17,413 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-98
+2026-02-16 18:29:17,848 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-96
+2026-02-16 18:29:17,848 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-73
+2026-02-16 18:29:17,849 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-73
+2026-02-16 18:29:17,848 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-115
+2026-02-16 18:29:17,849 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-96
+2026-02-16 18:29:17,849 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-115
+2026-02-16 18:29:17,858 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-41
+2026-02-16 18:29:17,858 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-41
+2026-02-16 18:29:17,924 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-119
+2026-02-16 18:29:17,924 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-119
+2026-02-16 18:29:17,995 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-29
+2026-02-16 18:29:17,996 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-29
+2026-02-16 18:29:17,996 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-54
+2026-02-16 18:29:17,996 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-54
+2026-02-16 18:29:18,065 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-57
+2026-02-16 18:29:18,065 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-57
+2026-02-16 18:29:18,145 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-79
+2026-02-16 18:29:18,145 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-79
+2026-02-16 18:29:18,154 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-45
+2026-02-16 18:29:18,154 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-45
+2026-02-16 18:29:18,165 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-105
+2026-02-16 18:29:18,165 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-105
+2026-02-16 18:29:18,165 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-46
+2026-02-16 18:29:18,165 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-46
+2026-02-16 18:29:18,201 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-5
+2026-02-16 18:29:18,201 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-5
+2026-02-16 18:29:18,269 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-95
+2026-02-16 18:29:18,269 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-95
+2026-02-16 18:29:18,584 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-13
+2026-02-16 18:29:18,584 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-13
+2026-02-16 18:29:18,598 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-74
+2026-02-16 18:29:18,598 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-74
+2026-02-16 18:29:18,898 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-61
+2026-02-16 18:29:18,898 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-61
+2026-02-16 18:29:18,983 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-91
+2026-02-16 18:29:18,983 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-82
+2026-02-16 18:29:18,983 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-82
+2026-02-16 18:29:18,983 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-91
+2026-02-16 18:29:19,003 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-66
+2026-02-16 18:29:19,003 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-66
+2026-02-16 18:29:19,042 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-85
+2026-02-16 18:29:19,042 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-85
+2026-02-16 18:29:19,116 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-64
+2026-02-16 18:29:19,116 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-64
+2026-02-16 18:29:19,222 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-38
+2026-02-16 18:29:19,223 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-38
+2026-02-16 18:29:19,609 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-11
+2026-02-16 18:29:19,609 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-22
+2026-02-16 18:29:19,609 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-80
+2026-02-16 18:29:19,609 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-11
+2026-02-16 18:29:19,609 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-22
+2026-02-16 18:29:19,609 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-80
+2026-02-16 18:29:19,612 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-49
+2026-02-16 18:29:19,612 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-120
+2026-02-16 18:29:19,612 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-49
+2026-02-16 18:29:19,612 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-120
+2026-02-16 18:29:19,730 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-76
+2026-02-16 18:29:19,730 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-76
+2026-02-16 18:29:19,734 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-50
+2026-02-16 18:29:19,734 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-94
+2026-02-16 18:29:19,734 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-103
+2026-02-16 18:29:19,734 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-50
+2026-02-16 18:29:19,734 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-72
+2026-02-16 18:29:19,734 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-94
+2026-02-16 18:29:19,734 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-62
+2026-02-16 18:29:19,734 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-103
+2026-02-16 18:29:19,736 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-62
+2026-02-16 18:29:19,736 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-72
+2026-02-16 18:29:19,787 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-14
+2026-02-16 18:29:19,787 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-14
+2026-02-16 18:29:19,872 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-7
+2026-02-16 18:29:19,873 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-7
+2026-02-16 18:29:19,914 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-3
+2026-02-16 18:29:19,915 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-3
+2026-02-16 18:29:20,189 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-10
+2026-02-16 18:29:20,189 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-10
+2026-02-16 18:29:20,293 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-101
+2026-02-16 18:29:20,293 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-101
+2026-02-16 18:29:20,712 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-77
+2026-02-16 18:29:20,713 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-77
+2026-02-16 18:29:20,713 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-69
+2026-02-16 18:29:20,713 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-69
+2026-02-16 18:29:20,713 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-92
+2026-02-16 18:29:20,714 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-92
+2026-02-16 18:29:20,733 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-21
+2026-02-16 18:29:20,733 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-21
+2026-02-16 18:29:20,913 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-26
+2026-02-16 18:29:20,913 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-26
+2026-02-16 18:29:20,934 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-112
+2026-02-16 18:29:20,934 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-112
+2026-02-16 18:29:20,949 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-6
+2026-02-16 18:29:20,949 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-32
+2026-02-16 18:29:20,949 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-30
+2026-02-16 18:29:20,949 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-6
+2026-02-16 18:29:20,949 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-30
+2026-02-16 18:29:20,949 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-32
+2026-02-16 18:29:20,961 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-47
+2026-02-16 18:29:20,962 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-47
+2026-02-16 18:29:21,009 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-109
+2026-02-16 18:29:21,011 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-109
+2026-02-16 18:29:21,075 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-40
+2026-02-16 18:29:21,075 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-40
+2026-02-16 18:29:21,075 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-93
+2026-02-16 18:29:21,075 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-93
+2026-02-16 18:29:21,098 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-24
+2026-02-16 18:29:21,098 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-24
+2026-02-16 18:29:21,132 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-75
+2026-02-16 18:29:21,132 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-75
+2026-02-16 18:29:21,149 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-97
+2026-02-16 18:29:21,149 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-97
+2026-02-16 18:29:21,151 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-83
+2026-02-16 18:29:21,151 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-83
+2026-02-16 18:29:21,239 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-25
+2026-02-16 18:29:21,239 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-25
+2026-02-16 18:29:21,254 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-19
+2026-02-16 18:29:21,254 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-86
+2026-02-16 18:29:21,254 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-100
+2026-02-16 18:29:21,255 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-19
+2026-02-16 18:29:21,255 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-86
+2026-02-16 18:29:21,255 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-100
+2026-02-16 18:29:21,298 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-44
+2026-02-16 18:29:21,300 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-44
+2026-02-16 18:29:21,311 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-42
+2026-02-16 18:29:21,312 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-42
+2026-02-16 18:29:21,467 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-2
+2026-02-16 18:29:21,468 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-2
+2026-02-16 18:29:21,536 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-12
+2026-02-16 18:29:21,536 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-12
+2026-02-16 18:29:21,834 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-102
+2026-02-16 18:29:21,834 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-102
+2026-02-16 18:29:21,943 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-111
+2026-02-16 18:29:21,944 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-111
+2026-02-16 18:29:21,963 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-108
+2026-02-16 18:29:21,963 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-59
+2026-02-16 18:29:21,965 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-108
+2026-02-16 18:29:21,965 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-59
+2026-02-16 18:29:22,028 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-33
+2026-02-16 18:29:22,028 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-65
+2026-02-16 18:29:22,029 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-33
+2026-02-16 18:29:22,029 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-65
+2026-02-16 18:29:22,083 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-1
+2026-02-16 18:29:22,083 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-1
+2026-02-16 18:29:22,140 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-117
+2026-02-16 18:29:22,141 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-117
+2026-02-16 18:29:22,171 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-67
+2026-02-16 18:29:22,171 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-52
+2026-02-16 18:29:22,171 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-67
+2026-02-16 18:29:22,171 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-52
+2026-02-16 18:29:22,172 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-104
+2026-02-16 18:29:22,172 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-104
+2026-02-16 18:29:22,248 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-4
+2026-02-16 18:29:22,248 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-4
+2026-02-16 18:29:22,274 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-16
+2026-02-16 18:29:22,274 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-51
+2026-02-16 18:29:22,276 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-16
+2026-02-16 18:29:22,276 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-51
+2026-02-16 18:29:22,290 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-37
+2026-02-16 18:29:22,290 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-37
+2026-02-16 18:29:22,329 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-110
+2026-02-16 18:29:22,329 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-110
+2026-02-16 18:29:22,349 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-20
+2026-02-16 18:29:22,349 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-20
+2026-02-16 18:29:22,361 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-89
+2026-02-16 18:29:22,361 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-89
+2026-02-16 18:29:22,361 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-56
+2026-02-16 18:29:22,361 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-118
+2026-02-16 18:29:22,362 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-56
+2026-02-16 18:29:22,362 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-15
+2026-02-16 18:29:22,362 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-118
+2026-02-16 18:29:22,362 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-15
+2026-02-16 18:29:22,415 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-60
+2026-02-16 18:29:22,415 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-60
+2026-02-16 18:29:22,452 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-34
+2026-02-16 18:29:22,452 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-34
+2026-02-16 18:29:22,486 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-113
+2026-02-16 18:29:22,486 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-113
+2026-02-16 18:29:22,486 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-18
+2026-02-16 18:29:22,486 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-18
+2026-02-16 18:29:22,703 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-84
+2026-02-16 18:29:22,703 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-84
+2026-02-16 18:29:22,708 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-28
+2026-02-16 18:29:22,708 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-28
+2026-02-16 18:29:22,794 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-99
+2026-02-16 18:29:22,794 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-78
+2026-02-16 18:29:22,796 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-99
+2026-02-16 18:29:22,796 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-78
+2026-02-16 18:29:22,828 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-43
+2026-02-16 18:29:22,828 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-43
+2026-02-16 18:29:22,857 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-70
+2026-02-16 18:29:22,857 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-70
+2026-02-16 18:29:22,866 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-107
+2026-02-16 18:29:22,866 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-107
+2026-02-16 18:29:22,927 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-23
+2026-02-16 18:29:22,927 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-23
+2026-02-16 18:29:22,955 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-8
+2026-02-16 18:29:22,956 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-8
+2026-02-16 18:29:23,022 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-68
+2026-02-16 18:29:23,022 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-68
+2026-02-16 18:29:23,038 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-116
+2026-02-16 18:29:23,038 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-63
+2026-02-16 18:29:23,038 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-63
+2026-02-16 18:29:23,038 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-116
+2026-02-16 18:29:23,098 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-106
+2026-02-16 18:29:23,098 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-106
+2026-02-16 18:29:23,173 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-39
+2026-02-16 18:29:23,173 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-39
+2026-02-16 18:29:23,206 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-71
+2026-02-16 18:29:23,206 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-71
+2026-02-16 18:29:23,206 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-58
+2026-02-16 18:29:23,206 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-58
+2026-02-16 18:29:23,339 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-90
+2026-02-16 18:29:23,339 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-90
+2026-02-16 18:29:23,379 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-55
+2026-02-16 18:29:23,379 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-55
+2026-02-16 18:29:23,394 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-87
+2026-02-16 18:29:23,394 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-87
+2026-02-16 18:29:23,408 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-31
+2026-02-16 18:29:23,409 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-27
+2026-02-16 18:29:23,409 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-31
+2026-02-16 18:29:23,409 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-27
+2026-02-16 18:29:23,492 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-88
+2026-02-16 18:29:23,492 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-88
+2026-02-16 18:29:23,536 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-53
+2026-02-16 18:29:23,536 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-53
+2026-02-16 18:29:24,141 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-81
+2026-02-16 18:29:24,141 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-81
+2026-02-16 18:29:24,195 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-114
+2026-02-16 18:29:24,195 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-114
+2026-02-16 18:29:24,288 INFO o.a.j.t.JMeterThread: Stopping because end time detected by thread: Stress Test - 120 Users / 1.5 Hours 1-35
+2026-02-16 18:29:24,288 INFO o.a.j.t.JMeterThread: Thread finished: Stress Test - 120 Users / 1.5 Hours 1-35
+2026-02-16 18:29:24,291 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
+2026-02-16 18:29:24,295 INFO o.a.j.r.Summariser: summary +    519 in 00:00:24 =   21.5/s Avg:  5895 Min:     2 Max: 17985 Err:    10 (1.93%) Active: 0 Started: 120 Finished: 120
+2026-02-16 18:29:24,295 INFO o.a.j.r.Summariser: summary = 192576 in 01:30:07 =   35.6/s Avg:  3348 Min:     1 Max: 24844 Err:  2361 (1.23%)
+2026-02-16 18:29:24,300 INFO o.a.j.JMeter: Generating Dashboard
+2026-02-16 18:29:24,300 INFO o.a.j.r.d.ReportGenerator: Flushing result collector before report Generation
+2026-02-16 18:29:24,327 INFO o.a.j.r.p.NormalizerSampleConsumer: Using format, 'ms', to parse timeStamp field
+2026-02-16 18:29:26,832 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): beginDate produced 0 samples
+2026-02-16 18:29:26,832 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.AggregateConsumer#stopProducing(): endDate produced 0 samples
+2026-02-16 18:29:26,834 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ApdexSummaryConsumer#stopProducing(): apdexSummary produced 0 samples
+2026-02-16 18:29:26,834 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.RequestsSummaryConsumer#stopProducing(): requestsSummary produced 0 samples
+2026-02-16 18:29:26,852 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.StatisticsSummaryConsumer#stopProducing(): statisticsSummary produced 0 samples
+2026-02-16 18:29:26,852 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.Top5ErrorsBySamplerConsumer#stopProducing(): top5ErrorsBySampler produced 0 samples
+2026-02-16 18:29:26,852 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.ErrorsSummaryConsumer#stopProducing(): errorsSummary produced 0 samples
+2026-02-16 18:29:26,852 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.HitsPerSecondGraphConsumer#stopProducing(): hitsPerSecond produced 0 samples
+2026-02-16 18:29:28,127 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyVSRequestGraphConsumer#stopProducing(): latencyVsRequest produced 0 samples
+2026-02-16 18:29:28,131 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.SyntheticResponseTimeDistributionGraphConsumer#stopProducing(): syntheticResponseTimeDistribution produced 0 samples
+2026-02-16 18:29:28,131 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.BytesThroughputGraphConsumer#stopProducing(): bytesThroughputOverTime produced 0 samples
+2026-02-16 18:29:28,131 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.CodesPerSecondGraphConsumer#stopProducing(): codesPerSecond produced 0 samples
+2026-02-16 18:29:29,328 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeVSRequestGraphConsumer#stopProducing(): responseTimeVsRequest produced 0 samples
+2026-02-16 18:29:29,330 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): startIntervalControlerFilter produced 1348032 samples
+2026-02-16 18:29:29,330 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TotalTPSGraphConsumer#stopProducing(): totalTPS produced 0 samples
+2026-02-16 18:29:29,330 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ActiveThreadsGraphConsumer#stopProducing(): activeThreadsOverTime produced 0 samples
+2026-02-16 18:29:29,330 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TimeVSThreadGraphConsumer#stopProducing(): timeVsThreads produced 0 samples
+2026-02-16 18:29:29,333 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeDistributionGraphConsumer#stopProducing(): responseTimeDistribution produced 0 samples
+2026-02-16 18:29:29,333 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.TransactionsPerSecondGraphConsumer#stopProducing(): transactionsPerSecond produced 0 samples
+2026-02-16 18:29:29,334 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesGraphConsumer#stopProducing(): responseTimePercentiles produced 0 samples
+2026-02-16 18:29:29,361 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimePercentilesOverTimeGraphConsumer#stopProducing(): responseTimePercentilesOverTime produced 0 samples
+2026-02-16 18:29:29,372 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ResponseTimeOverTimeGraphConsumer#stopProducing(): responseTimesOverTime produced 0 samples
+2026-02-16 18:29:29,372 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.ConnectTimeOverTimeGraphConsumer#stopProducing(): connectTimeOverTime produced 0 samples
+2026-02-16 18:29:29,372 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.graph.impl.LatencyOverTimeGraphConsumer#stopProducing(): latenciesOverTime produced 0 samples
+2026-02-16 18:29:29,372 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): nameFilter produced 2888640 samples
+2026-02-16 18:29:29,372 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.FilterConsumer#stopProducing(): dateRangeFilter produced 577728 samples
+2026-02-16 18:29:29,372 INFO o.a.j.r.p.AbstractSampleConsumer: class org.apache.jmeter.report.processor.NormalizerSampleConsumer#stopProducing(): normalizer produced 192576 samples
+2026-02-16 18:29:29,374 INFO o.a.j.r.p.CsvFileSampleSource: produce(): 192576 samples produced in 5s 8 ms on channel 0
+2026-02-16 18:29:29,374 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'json' of className:'org.apache.jmeter.report.dashboard.JsonExporter'
+2026-02-16 18:29:29,511 INFO o.a.j.r.d.JsonExporter: Found data for consumer statisticsSummary in context
+2026-02-16 18:29:29,511 INFO o.a.j.r.d.JsonExporter: Creating statistics for overall
+2026-02-16 18:29:29,511 INFO o.a.j.r.d.JsonExporter: Creating statistics for other transactions
+2026-02-16 18:29:29,511 INFO o.a.j.r.d.JsonExporter: Checking output folder
+2026-02-16 18:29:29,511 INFO o.a.j.r.d.JsonExporter: Writing statistics JSON to C:\Users\5991h\Downloads\Project-VI-main (1)\Project-VI-main\report_output\statistics.json
+2026-02-16 18:29:29,553 INFO o.a.j.r.d.ReportGenerator: Exporting data using exporter:'html' of className:'org.apache.jmeter.report.dashboard.HtmlTemplateExporter'
+2026-02-16 18:29:29,555 INFO o.a.j.r.d.HtmlTemplateExporter: Will generate dashboard in folder: C:\Users\5991h\Downloads\Project-VI-main (1)\Project-VI-main\report_output
+2026-02-16 18:29:29,767 INFO o.a.j.r.d.HtmlTemplateExporter: Report will be generated in: C:\Users\5991h\Downloads\Project-VI-main (1)\Project-VI-main\report_output, creating folder structure
+2026-02-16 18:29:29,767 INFO o.a.j.r.d.TemplateVisitor: Copying folder from 'D:\Study BCS3\Project VI Software Efficiency and Performance\apache-jmeter-5.6.3\bin\report-template' to 'C:\Users\5991h\Downloads\Project-VI-main (1)\Project-VI-main\report_output', got message: C:\Users\5991h\Downloads\Project-VI-main (1)\Project-VI-main\report_output, found non empty folder with following content [C:\Users\5991h\Downloads\Project-VI-main (1)\Project-VI-main\report_output\statistics.json], will be ignored
+2026-02-16 18:29:30,153 INFO o.a.j.JMeter: Dashboard generated
